@@ -1,0 +1,8 @@
+framework module injector {
+    umbrella header "injector.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
