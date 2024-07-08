@@ -89,9 +89,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D93058CD2C35ACC90061FDA4 /* compose-resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "compose-resource";
+			sourceTree = "<group>";
+		};
 		D9B88F3A2C21EAE7006B844C = {
 			isa = PBXGroup;
 			children = (
+				D93058CD2C35ACC90061FDA4 /* compose-resource */,
 				D9B88F452C21EAE7006B844C /* iosApp */,
 				D9B88F562C21EAE8006B844C /* iosAppTests */,
 				D9B88F602C21EAE8006B844C /* iosAppUITests */,

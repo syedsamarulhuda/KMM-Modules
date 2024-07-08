@@ -13,8 +13,7 @@ import com.sample.sample_kmp_module.parser.TestParser
 class TestRemoteDataSourceImpl(
     private val networkClient: NetworkClient,
     private val testParser: TestParser
-) :
-    TestRemoteDataSource {
+) : TestRemoteDataSource {
     override suspend fun fetchData(path: String): String? {
         val segments = path.urlToSegment()
         val query = mutableMapOf<String, String>()
