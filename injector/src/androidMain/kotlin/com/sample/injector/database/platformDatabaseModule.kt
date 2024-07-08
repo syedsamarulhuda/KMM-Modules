@@ -12,6 +12,7 @@ fun androidAppModules(application: Application) = module {
     single { application } binds arrayOf(Context::class, Application::class)
 }
 
+
 actual fun getDbModules(): List<Module> {
 
     val databaseClient = module {

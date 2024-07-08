@@ -1,4 +1,4 @@
-package com.sample.injector.`sample_kmp`
+package com.sample.injector.sample_kmp
 
 import com.sample.sample_kmp_module.ui.TestMainPage
 import org.koin.core.component.KoinComponent
