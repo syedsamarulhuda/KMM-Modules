@@ -19,6 +19,7 @@ koin-compose = "1.2.0-Beta4"
 jetbrain-compose = "1.6.11"
 ktor = "2.3.11"
 coroutines = "1.8.1"
+coil = "3.0.0-alpha04"
 room = "2.7.0-alpha04"
 sqlite = "2.5.0-SNAPSHOT"
 ksp = "1.9.23-1.0.19"
@@ -56,6 +57,10 @@ room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
 room-runtime-android = { module = "androidx.room:room-runtime-android", version.ref = "room" }
 room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 sqlite-bundled = { module = "androidx.sqlite:sqlite-bundled", version.ref = "sqlite" }
+coil-compose = { group = "io.coil-kt.coil3", name = "coil-compose", version.ref = "coil" }
+coil-network-ktor = { group = "io.coil-kt.coil3", name = "coil-network-ktor", version.ref = "coil" }
+coil-svg = { group = "io.coil-kt.coil3", name = "coil-svg", version.ref = "coil" }
+coil-gif = { group = "io.coil-kt.coil3", name = "coil-gif", version.ref = "coil" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

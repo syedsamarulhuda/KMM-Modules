@@ -32,6 +32,14 @@ kotlin {
             implementation(libs.kotlinx.serialization.json)
             implementation(compose.components.resources)
             implementation(compose.runtime)
+            implementation(compose.foundation)
+            implementation(compose.material)
+            implementation(compose.material3)
+            implementation(compose.ui)
+            implementation(libs.coil.compose)
+            implementation(libs.coil.gif)
+            implementation(libs.coil.svg)
+            implementation(libs.coil.network.ktor)
         }
     }
 }
