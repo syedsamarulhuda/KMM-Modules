@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3995930586631599588.xml:2:13-83
-INJECTED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3995930586631599588.xml:2:13-83
+ADDED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8922217757873579510.xml:2:13-83
+INJECTED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8922217757873579510.xml:2:13-83
 	package
-		INJECTED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3995930586631599588.xml
+		INJECTED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8922217757873579510.xml
 	xmlns:android
-		ADDED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3995930586631599588.xml:2:23-81
+		ADDED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8922217757873579510.xml:2:23-81
 uses-sdk
-INJECTED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3995930586631599588.xml reason: use-sdk injection requested
-INJECTED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3995930586631599588.xml
-INJECTED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3995930586631599588.xml
+INJECTED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8922217757873579510.xml reason: use-sdk injection requested
+INJECTED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8922217757873579510.xml
+INJECTED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8922217757873579510.xml
 	android:targetSdkVersion
-		INJECTED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3995930586631599588.xml
+		INJECTED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8922217757873579510.xml
 	android:minSdkVersion
-		INJECTED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3995930586631599588.xml
+		INJECTED from /Users/syedsamarulhuda/Desktop/android/KMMAPP/injector/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8922217757873579510.xml

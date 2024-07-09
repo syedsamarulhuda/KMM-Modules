@@ -5,7 +5,7 @@
     <key>CFBundleExecutable</key>
     <string>injector</string>
     <key>CFBundleIdentifier</key>
-    <string>com.sample.injector.injector</string>
+    <string>com.sample.injector</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>

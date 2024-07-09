@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class UIViewController, InjectorKoinInjector, InjectorKoin_coreModule, InjectorKoin_coreKoin, InjectorSampleKmpProvider, InjectorKoin_coreKoinDefinition<R>, InjectorKoin_coreScope, InjectorKoin_coreParametersHolder, InjectorKotlinArray<T>, InjectorKoin_coreInstanceFactory<T>, InjectorKoin_coreSingleInstanceFactory<T>, InjectorKoin_coreScopeDSL, InjectorKotlinLazyThreadSafetyMode, InjectorKoin_coreLogger, InjectorKoin_coreExtensionManager, InjectorKoin_coreInstanceRegistry, InjectorKoin_corePropertyRegistry, InjectorKoin_coreScopeRegistry, InjectorKoin_coreLockable, InjectorStately_concurrencyThreadLocalRef<T>, InjectorKoin_coreBeanDefinition<T>, InjectorKoin_coreInstanceFactoryCompanion, InjectorKoin_coreInstanceContext, InjectorKotlinEnumCompanion, InjectorKotlinEnum<E>, InjectorKoin_coreLevel, InjectorKoin_coreScopeRegistryCompanion, InjectorKoin_coreKind, InjectorKoin_coreCallbacks<T>;
+@class UIViewController, InjectorKoinInjector, InjectorKoin_coreModule, InjectorLibraryDrawableResource, InjectorSharedResourceImpl, InjectorKoin_coreKoin, InjectorSampleKmpProvider, InjectorKoin_coreKoinDefinition<R>, InjectorKoin_coreScope, InjectorKoin_coreParametersHolder, InjectorKotlinArray<T>, InjectorKoin_coreInstanceFactory<T>, InjectorKoin_coreSingleInstanceFactory<T>, InjectorKoin_coreScopeDSL, InjectorLibraryResource, InjectorLibraryResourceItem, InjectorKotlinLazyThreadSafetyMode, InjectorKoin_coreLogger, InjectorKoin_coreExtensionManager, InjectorKoin_coreInstanceRegistry, InjectorKoin_corePropertyRegistry, InjectorKoin_coreScopeRegistry, InjectorKoin_coreLockable, InjectorStately_concurrencyThreadLocalRef<T>, InjectorKoin_coreBeanDefinition<T>, InjectorKoin_coreInstanceFactoryCompanion, InjectorKoin_coreInstanceContext, InjectorKotlinEnumCompanion, InjectorKotlinEnum<E>, InjectorKoin_coreLevel, InjectorKoin_coreScopeRegistryCompanion, InjectorKoin_coreKind, InjectorKoin_coreCallbacks<T>;
 
-@protocol InjectorCore_networkingNetworkConfig, InjectorKoin_coreKoinComponent, InjectorSample_kmp_apiTestMainPage, InjectorKoin_coreQualifier, InjectorKoin_coreKoinScopeComponent, InjectorKotlinKClass, InjectorKotlinLazy, InjectorKoin_coreScopeCallback, InjectorKotlinIterator, InjectorKotlinKDeclarationContainer, InjectorKotlinKAnnotatedElement, InjectorKotlinKClassifier, InjectorKotlinComparable, InjectorKoin_coreKoinExtension;
+@protocol InjectorCore_databaseDataBaseConfig, InjectorCore_networkingNetworkConfig, InjectorCommon_apiSharedResourceApi, InjectorKoin_coreKoinComponent, InjectorSample_kmp_apiTestMainPage, InjectorKoin_coreQualifier, InjectorKoin_coreKoinScopeComponent, InjectorKotlinKClass, InjectorKotlinLazy, InjectorKoin_coreScopeCallback, InjectorKotlinIterator, InjectorLibraryQualifier, InjectorKotlinKDeclarationContainer, InjectorKotlinKAnnotatedElement, InjectorKotlinKClassifier, InjectorKotlinComparable, InjectorKoin_coreKoinExtension;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -144,6 +144,20 @@ __attribute__((swift_name("KotlinBoolean")))
 + (instancetype)numberWithBool:(BOOL)value;
 @end
 
+__attribute__((swift_name("Core_databaseDataBaseConfig")))
+@protocol InjectorCore_databaseDataBaseConfig
+@required
+@property (readonly) NSString *dbName __attribute__((swift_name("dbName")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DataConfigImpl")))
+@interface InjectorDataConfigImpl : InjectorBase <InjectorCore_databaseDataBaseConfig>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (readonly) NSString *dbName __attribute__((swift_name("dbName")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DependencyProvider")))
 @interface InjectorDependencyProvider : InjectorBase
@@ -176,6 +190,24 @@ __attribute__((swift_name("NetworkConfigImpl")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property (readonly) NSString * _Nullable baseUrl __attribute__((swift_name("baseUrl")));
+@end
+
+__attribute__((swift_name("Common_apiSharedResourceApi")))
+@protocol InjectorCommon_apiSharedResourceApi
+@required
+@property (readonly) InjectorLibraryDrawableResource *headphoneSvg __attribute__((swift_name("headphoneSvg")));
+@property (readonly) InjectorLibraryDrawableResource *test __attribute__((swift_name("test")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("SharedResourceImpl")))
+@interface InjectorSharedResourceImpl : InjectorBase <InjectorCommon_apiSharedResourceApi>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)sharedResourceImpl __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) InjectorSharedResourceImpl *shared __attribute__((swift_name("shared")));
+@property (readonly) InjectorLibraryDrawableResource *headphoneSvg __attribute__((swift_name("headphoneSvg")));
+@property (readonly) InjectorLibraryDrawableResource *test __attribute__((swift_name("test")));
 @end
 
 __attribute__((swift_name("Koin_coreKoinComponent")))
@@ -213,6 +245,18 @@ __attribute__((swift_name("NetworkModulesKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PrefModulesKt")))
+@interface InjectorPrefModulesKt : InjectorBase
++ (NSArray<InjectorKoin_coreModule *> *)getSharedPrefModules __attribute__((swift_name("getSharedPrefModules()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ResourceKt")))
+@interface InjectorResourceKt : InjectorBase
++ (NSArray<InjectorKoin_coreModule *> *)resourceModule __attribute__((swift_name("resourceModule()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SampleKmpModuleKt")))
 @interface InjectorSampleKmpModuleKt : InjectorBase
 + (NSArray<InjectorKoin_coreModule *> *)getSampleKmpModules __attribute__((swift_name("getSampleKmpModules()")));
@@ -240,6 +284,28 @@ __attribute__((swift_name("Koin_coreModule")))
 @property (readonly) NSMutableArray<InjectorKoin_coreModule *> *includedModules __attribute__((swift_name("includedModules")));
 @property (readonly) BOOL isLoaded __attribute__((swift_name("isLoaded")));
 @property (readonly) InjectorMutableDictionary<NSString *, InjectorKoin_coreInstanceFactory<id> *> *mappings __attribute__((swift_name("mappings")));
+@end
+
+
+/**
+ * @note annotations
+ *   androidx.compose.runtime.Immutable
+*/
+__attribute__((swift_name("LibraryResource")))
+@interface InjectorLibraryResource : InjectorBase
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+@end
+
+
+/**
+ * @note annotations
+ *   androidx.compose.runtime.Immutable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LibraryDrawableResource")))
+@interface InjectorLibraryDrawableResource : InjectorLibraryResource
+- (instancetype)initWithId:(NSString *)id items:(NSSet<InjectorLibraryResourceItem *> *)items __attribute__((swift_name("init(id:items:)"))) __attribute__((objc_designated_initializer));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -417,6 +483,21 @@ __attribute__((swift_name("Koin_coreScopeDSL")))
 - (InjectorKoin_coreKoinDefinition<id> *)scopedQualifier:(id<InjectorKoin_coreQualifier> _Nullable)qualifier definition:(id _Nullable (^)(InjectorKoin_coreScope *, InjectorKoin_coreParametersHolder *))definition __attribute__((swift_name("scoped(qualifier:definition:)")));
 @property (readonly) InjectorKoin_coreModule *module __attribute__((swift_name("module")));
 @property (readonly) id<InjectorKoin_coreQualifier> scopeQualifier __attribute__((swift_name("scopeQualifier")));
+@end
+
+
+/**
+ * @note annotations
+ *   androidx.compose.runtime.Immutable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LibraryResourceItem")))
+@interface InjectorLibraryResourceItem : InjectorBase
+- (instancetype)initWithQualifiers:(NSSet<id<InjectorLibraryQualifier>> *)qualifiers path:(NSString *)path offset:(int64_t)offset size:(int64_t)size __attribute__((swift_name("init(qualifiers:path:offset:size:)"))) __attribute__((objc_designated_initializer));
+- (InjectorLibraryResourceItem *)doCopyQualifiers:(NSSet<id<InjectorLibraryQualifier>> *)qualifiers path:(NSString *)path offset:(int64_t)offset size:(int64_t)size __attribute__((swift_name("doCopy(qualifiers:path:offset:size:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
 @end
 
 __attribute__((swift_name("Koin_coreKoinScopeComponent")))
@@ -609,6 +690,11 @@ __attribute__((swift_name("Koin_coreInstanceContext")))
 @property (readonly) InjectorKoin_coreLogger *logger __attribute__((swift_name("logger")));
 @property (readonly) InjectorKoin_coreParametersHolder * _Nullable parameters __attribute__((swift_name("parameters")));
 @property (readonly) InjectorKoin_coreScope *scope __attribute__((swift_name("scope")));
+@end
+
+__attribute__((swift_name("LibraryQualifier")))
+@protocol InjectorLibraryQualifier
+@required
 @end
 
 __attribute__((objc_subclassing_restricted))

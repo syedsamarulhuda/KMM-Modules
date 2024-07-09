@@ -34,12 +34,16 @@ kotlin {
             implementation(project(":core-networking"))
             implementation(project(":common-api"))
             implementation(project(":core-database"))
+            implementation(project(":core-pref"))
             implementation(libs.lifecycle.viewmodel.compose)
             implementation(compose.runtime)
             implementation(compose.foundation)
+            implementation(compose.ui)
             implementation(compose.material)
+            implementation(compose.material3)
             implementation(libs.koin.core)
             implementation(libs.koin.compose)
+            implementation(compose.components.resources)
             implementation(libs.kotlinx.serialization.json)
         }
     }
@@ -54,5 +58,8 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = libs.versions.compose.compiler.get()
     }
 }

@@ -43,13 +43,16 @@ kotlin {
         commonMain.dependencies {
             implementation(project(":core-networking"))
             implementation(project(":core-database"))
+            implementation(project(":core-pref"))
             api(project(":sample-kmp-api"))
             implementation(project(":sample-kmp-impl"))
+            implementation(project(":common-api"))
             implementation(compose.runtime)
             implementation(compose.foundation)
             implementation(compose.material)
             implementation(libs.koin.core)
             implementation(libs.koin.compose)
+            implementation(compose.components.resources)
         }
         androidMain.dependencies {
             implementation(libs.koin.android)
