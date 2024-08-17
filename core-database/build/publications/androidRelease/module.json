@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-database/1.0.0/core-database-1.0.0.module",
+    "group": "com.sample.kmm",
+    "module": "core-database",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-database-release.aar",
+          "url": "core-database-android-1.0.0.aar",
+          "size": 23426,
+          "sha512": "782486800a9b578f6af75b3c1e28a611e1c5d0421c053a53bf5b5712b582c8566a76d014a97d429114939f1f4efe271eb5a7374826a349bd7116adde82e1565f",
+          "sha256": "9f7d70093d34800a47e98eb0da2da6ecf68cf6665d4feb7d0c04e4c427fa48a2",
+          "sha1": "9f5744e3a2036dc435aee63c03ba09ebe6a01a76",
+          "md5": "da64554011048f74d50d3cc6db74c3fd"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.7.0-alpha04"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-bundled",
+          "version": {
+            "requires": "2.5.0-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-database-release.aar",
+          "url": "core-database-android-1.0.0.aar",
+          "size": 23426,
+          "sha512": "782486800a9b578f6af75b3c1e28a611e1c5d0421c053a53bf5b5712b582c8566a76d014a97d429114939f1f4efe271eb5a7374826a349bd7116adde82e1565f",
+          "sha256": "9f7d70093d34800a47e98eb0da2da6ecf68cf6665d4feb7d0c04e4c427fa48a2",
+          "sha1": "9f5744e3a2036dc435aee63c03ba09ebe6a01a76",
+          "md5": "da64554011048f74d50d3cc6db74c3fd"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "core-database-android-1.0.0-sources.jar",
+          "url": "core-database-android-1.0.0-sources.jar",
+          "size": 8188,
+          "sha512": "98654001b50d56d4f99bbe3ec714d34cc431deb7a80e6cf940cfd4f8be2991836bae761d13863b9f8c44c4c87efc8693ba59eb03822bfced2c5d99c855f98894",
+          "sha256": "2fdd3388e6ef0d0f3defd18badfdca3894f62bdaf6c680e678baf88e636c3d29",
+          "sha1": "d3d64dba262b6c69b67dc5b392e12d10f262f842",
+          "md5": "48f7db053456ef8edf7d4cdd1851cd28"
+        }
+      ]
+    }
+  ]
+}

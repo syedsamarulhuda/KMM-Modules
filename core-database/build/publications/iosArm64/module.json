@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-database/1.0.0/core-database-1.0.0.module",
+    "group": "com.sample.kmm",
+    "module": "core-database",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.7.0-alpha04"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-bundled",
+          "version": {
+            "requires": "2.5.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-database.klib",
+          "url": "core-database-iosarm64-1.0.0.klib",
+          "size": 24588,
+          "sha512": "6e33c1ddf83b60c8946f1c67197e6434df1bbea25bc47591fa16c8b8c4f42ce3f484266df4d2880af428d383d3713160600d464ea7d74b86c5c54946ce54d353",
+          "sha256": "323db3949860522149ac05b18ca76d0b6580f908cfbecffb77dc8ac3c9bc8c8f",
+          "sha1": "13fbc889c87e8491798715ebf067939f0df8ec33",
+          "md5": "5114d20593dc23540f492c9ccd9d7ac4"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-database-iosarm64-1.0.0-sources.jar",
+          "url": "core-database-iosarm64-1.0.0-sources.jar",
+          "size": 7963,
+          "sha512": "4502b2a1ca8de0bc5b90cb42446f2746640d9c003d1ddccd150a8a137b0f5d0cbcd0eafaf2bcc218762a9417f1c68a02afcef2cd7309ab827938c73b4abe4f15",
+          "sha256": "2c41e0c5cdae11ec68c74b6400b2f8af363595810d0ae3df980a2f58e982b778",
+          "sha1": "ba9e0b43bb88218e3e8310f24f640bf674767d40",
+          "md5": "109f48b28de0cb6eb1aded40437063b1"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.7.0-alpha04"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-bundled",
+          "version": {
+            "requires": "2.5.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-database-iosarm64-1.0.0-metadata.jar",
+          "url": "core-database-iosarm64-1.0.0-metadata.jar",
+          "size": 3747,
+          "sha512": "61bf972e94c11301e50607c770ec711e1af004dfe6a8e419ea8d2ce8dc23eb9a507509bbb13eb9775d015783c0ea77437cd282ec79dbaf92034e4fbfc5588e63",
+          "sha256": "9e3a22870e94ce9b03e9c019b60f958fdb580f23a8ee99d5f49f5458d65d539d",
+          "sha1": "548dec900fe233427fdcb1f063dad94aee05d03d",
+          "md5": "5c9214b7d2f5cc166df0b1ac28f167de"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sample-kmp-impl/1.0.0/sample-kmp-impl-1.0.0.module",
+    "group": "com.sample.kmm",
+    "module": "sample-kmp-impl",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "sample-kmp-api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "core-networking",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "common-api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "core-database",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "core-pref",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose",
+          "version": {
+            "requires": "1.2.0-Beta4"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sample-kmp-impl.klib",
+          "url": "sample-kmp-impl-iossimulatorarm64-1.0.0.klib",
+          "size": 38325,
+          "sha512": "b7f0b5108c401d35931258adc44e43b748894b53e69200a2be4d55553e7d8734ad356969fed1fea6817705e3360bb273b58a8929e1f14cd6fbeb95f771f42e1e",
+          "sha256": "7355f85e88add3fd140800f96c5ff45d31a42e7bc0acde3e6fc132adc73190a4",
+          "sha1": "138b68ec3293fbbf3bd47933570049fd7dcc9a86",
+          "md5": "e7deb11b5755c2ca87f7fccede306daa"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "sample-kmp-impl-iossimulatorarm64-1.0.0-sources.jar",
+          "url": "sample-kmp-impl-iossimulatorarm64-1.0.0-sources.jar",
+          "size": 9211,
+          "sha512": "bcb2e9251022e3c8bdfbe54a80e2770a16e75eb4483966f814a6b8f18a5f82ff494ce330774381dd724f04d7cd9bea218817330d878a07370a55dc2c2f78b414",
+          "sha256": "6cb524108e6cb4329ab535ea2a85c439d57acbdb9ce71396bbedcf294fd8bbf0",
+          "sha1": "e92b349c36d5b1132a7b5b2d29911fbdd2f2542b",
+          "md5": "fc5972992b12ec3ddbb3e44967a74ec8"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "sample-kmp-api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "core-networking",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "common-api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "core-database",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "core-pref",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose",
+          "version": {
+            "requires": "1.2.0-Beta4"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sample-kmp-impl-iossimulatorarm64-1.0.0-metadata.jar",
+          "url": "sample-kmp-impl-iossimulatorarm64-1.0.0-metadata.jar",
+          "size": 261,
+          "sha512": "bdcdb9d01a909d1ddc1c0b46b3fa8d9ab43b5841ec981babe238b41fab80237ea186befb8b104de188b1c590660c8a187c02d601462bf66093963a8503193e80",
+          "sha256": "9bd6ac20ce6176a0b8974090009eec9f40cdd7fc308af4effa1e07508888e30c",
+          "sha1": "3d0f0798495d6b9df17f81616669d93145825915",
+          "md5": "5a2a55e8d573cca48cfb8cdb5be006ee"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sample-kmp-api/1.0.0/sample-kmp-api-1.0.0.module",
+    "group": "com.sample.kmm",
+    "module": "sample-kmp-api",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "common-api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sample-kmp-api.klib",
+          "url": "sample-kmp-api-iossimulatorarm64-1.0.0.klib",
+          "size": 13577,
+          "sha512": "995f491da676bfc6462eaba2c24c434d897d74fc7750d2f55ffa50b2de7c75a071fb6a214296b69a1b1dc612a2dbf6ac0f7f5d345324f9a6f6ed9cd9f2a1d672",
+          "sha256": "4cb870f919623aef098b1d9b075c9f54f6619505beb866d7bd523606c902346f",
+          "sha1": "3d18a34262d2d1c006aeff46838e13850cf59084",
+          "md5": "499e61a7908573bf19ee7fbfc3b50c04"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "sample-kmp-api-iossimulatorarm64-1.0.0-sources.jar",
+          "url": "sample-kmp-api-iossimulatorarm64-1.0.0-sources.jar",
+          "size": 5235,
+          "sha512": "46c9fbe7ecfc7021ea239a7481831dc1a76853bf142ebfc0482a4dc25e568f5d3c4514104fa492fc74f5f5909c04c404f5e3537d3f332291bb2f0ee2ac8191d2",
+          "sha256": "18f7ba50cfa63b711ae4dc0ef40ad0a6f25a6aa8a7cd165065337ece7e121041",
+          "sha1": "2a2a6d8efb36fed7fbbbb099f43373f918f647bd",
+          "md5": "e0ca8518d17a2041242b6b843d7c02eb"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "common-api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sample-kmp-api-iossimulatorarm64-1.0.0-metadata.jar",
+          "url": "sample-kmp-api-iossimulatorarm64-1.0.0-metadata.jar",
+          "size": 261,
+          "sha512": "234d179988beb3447814f87b3fa482073484c477ef64777922d454baa0c9a1f9662e140f31af62031eb97cdac9887a6460eab9fc7b163b13241e28b9a0fbcee4",
+          "sha256": "d655911b494ff20287c1f8dae253c346fbdbca709df7bb3bed87ebf7940e2d4e",
+          "sha1": "726fa6c998318769c2979ce242aa9f3107c21f5a",
+          "md5": "fddf8ff84f10a5642a8da0718ad5576f"
+        }
+      ]
+    }
+  ]
+}

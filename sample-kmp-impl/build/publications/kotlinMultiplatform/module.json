@@ -1,0 +1,363 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sample.kmm",
+    "module": "sample-kmp-impl",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "sample-kmp-api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "core-networking",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "common-api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "core-database",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.sample.kmm",
+          "module": "core-pref",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-compose",
+          "version": {
+            "requires": "1.2.0-Beta4"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sample-kmp-impl-metadata-1.0.0.jar",
+          "url": "sample-kmp-impl-1.0.0.jar",
+          "size": 14035,
+          "sha512": "dbb7e9a597bed7685a13b1a79edfbe21e75fcfe4f72c2192fcf12ba6c4546f0c070f5333ca2b96d78fb440e0ced80b47e0f8c12f31cd830c38e26852a8ce6279",
+          "sha256": "694dfbf6570e2535031eccbf82840741db2302c6a07066836ce3b918aabb521a",
+          "sha1": "6c0792e843ac1d574f1394f7aee3dc6e759b1d09",
+          "md5": "e61c28c8960966e82b28f66a38b31cc9"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "sample-kmp-impl-kotlin-1.0.0-sources.jar",
+          "url": "sample-kmp-impl-1.0.0-sources.jar",
+          "size": 9211,
+          "sha512": "bcb2e9251022e3c8bdfbe54a80e2770a16e75eb4483966f814a6b8f18a5f82ff494ce330774381dd724f04d7cd9bea218817330d878a07370a55dc2c2f78b414",
+          "sha256": "6cb524108e6cb4329ab535ea2a85c439d57acbdb9ce71396bbedcf294fd8bbf0",
+          "sha1": "e92b349c36d5b1132a7b5b2d29911fbdd2f2542b",
+          "md5": "fc5972992b12ec3ddbb3e44967a74ec8"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sample-kmp-impl-android-debug/1.0.0/sample-kmp-impl-android-debug-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "sample-kmp-impl-android-debug",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sample-kmp-impl-android-debug/1.0.0/sample-kmp-impl-android-debug-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "sample-kmp-impl-android-debug",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "debugSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sample-kmp-impl-android-debug/1.0.0/sample-kmp-impl-android-debug-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "sample-kmp-impl-android-debug",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sample-kmp-impl-android/1.0.0/sample-kmp-impl-android-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "sample-kmp-impl-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sample-kmp-impl-android/1.0.0/sample-kmp-impl-android-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "sample-kmp-impl-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sample-kmp-impl-android/1.0.0/sample-kmp-impl-android-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "sample-kmp-impl-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sample-kmp-impl-iosarm64/1.0.0/sample-kmp-impl-iosarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "sample-kmp-impl-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sample-kmp-impl-iosarm64/1.0.0/sample-kmp-impl-iosarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "sample-kmp-impl-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sample-kmp-impl-iosarm64/1.0.0/sample-kmp-impl-iosarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "sample-kmp-impl-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sample-kmp-impl-iossimulatorarm64/1.0.0/sample-kmp-impl-iossimulatorarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "sample-kmp-impl-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sample-kmp-impl-iossimulatorarm64/1.0.0/sample-kmp-impl-iossimulatorarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "sample-kmp-impl-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sample-kmp-impl-iossimulatorarm64/1.0.0/sample-kmp-impl-iossimulatorarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "sample-kmp-impl-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    }
+  ]
+}

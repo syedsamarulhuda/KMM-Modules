@@ -1,0 +1,279 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sample.kmm",
+    "module": "core-database",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.7.0-alpha04"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-bundled",
+          "version": {
+            "requires": "2.5.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-database-metadata-1.0.0.jar",
+          "url": "core-database-1.0.0.jar",
+          "size": 6418,
+          "sha512": "da1f615b37a3b68fc8522471da76d2a84804030be8f0917fb607f8164d9dd5367ecb77702294b514954fa6c3bb48aad0d3149ae2c61787a71ece8fd12cf8897c",
+          "sha256": "12b443a019d69f827b1b66b1ac824f7fc067ca4e3995211c253a872384f45b15",
+          "sha1": "631a0b8a3edc5fd149e2f03ef2fc5e016ee86d25",
+          "md5": "88511fc5e0020ed83bd52db5918fd2a4"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "core-database-kotlin-1.0.0-sources.jar",
+          "url": "core-database-1.0.0-sources.jar",
+          "size": 4256,
+          "sha512": "3b2f95cd7ba0d5df31cf823ed03580a82837cb473af18dbd23c48b00c7f0c13d8ab1b5d120e49c1e17aac0f4231f4f47c4e8fcd1a59d5223706e33a2bb45bb63",
+          "sha256": "e3c33b22575926905b80ecb604afe794fce84653ca25442d9f24cf7f71a0a631",
+          "sha1": "dcb59d303446e88e728637a0418498b7b220cebf",
+          "md5": "70e004c921febb6c2e5ddc2d8328c9fd"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-database-android-debug/1.0.0/core-database-android-debug-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-database-android-debug",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-database-android-debug/1.0.0/core-database-android-debug-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-database-android-debug",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "debugSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-database-android-debug/1.0.0/core-database-android-debug-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-database-android-debug",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-database-android/1.0.0/core-database-android-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-database-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-database-android/1.0.0/core-database-android-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-database-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-database-android/1.0.0/core-database-android-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-database-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-database-iosarm64/1.0.0/core-database-iosarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-database-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-database-iosarm64/1.0.0/core-database-iosarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-database-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-database-iosarm64/1.0.0/core-database-iosarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-database-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-database-iossimulatorarm64/1.0.0/core-database-iossimulatorarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-database-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-database-iossimulatorarm64/1.0.0/core-database-iossimulatorarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-database-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-database-iossimulatorarm64/1.0.0/core-database-iossimulatorarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-database-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    }
+  ]
+}

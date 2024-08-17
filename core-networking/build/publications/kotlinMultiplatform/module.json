@@ -1,0 +1,307 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sample.kmm",
+    "module": "core-networking",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-encoding",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "2.3.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-networking-metadata-1.0.0.jar",
+          "url": "core-networking-1.0.0.jar",
+          "size": 5241,
+          "sha512": "228b0cd4adcbbe106f01a02351ef8125b2bc4fa9e30229943c4f5530e664e05a5e1a3b773760f81d5963b93c3c3c6b5dbffc8d4e319f9125b40a8c9b89332d0d",
+          "sha256": "a17cddf6b0b8469bf4b34f8337173fdaebb9abcac1aca1ba4b51617f15aa3c1d",
+          "sha1": "bf7a4c299c4dbd5d5c87db4a5b75d30fdf41ba66",
+          "md5": "ebbd05299ff38dfe323ac8c7af29f882"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "core-networking-kotlin-1.0.0-sources.jar",
+          "url": "core-networking-1.0.0-sources.jar",
+          "size": 5770,
+          "sha512": "657ef9413ac93a3483179760f63286489e3a3eb2bc378411ff3eb6e54bd330e5acd1975b8f5a6976b0e8a78871e488db4ad8703ab72bd7e418fe703de5bd9fb5",
+          "sha256": "c9b8c097d582d4025723dc7dd74d5b3f73e5b7371d670144bf2f61cfe5b33bb1",
+          "sha1": "ea9eaf3286f77fe72de69a9602eb5c1c57d4aa9f",
+          "md5": "473c77531e463459c3fcf5333201a224"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-networking-android-debug/1.0.0/core-networking-android-debug-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-networking-android-debug",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-networking-android-debug/1.0.0/core-networking-android-debug-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-networking-android-debug",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "debugSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-networking-android-debug/1.0.0/core-networking-android-debug-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-networking-android-debug",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-networking-android/1.0.0/core-networking-android-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-networking-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-networking-android/1.0.0/core-networking-android-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-networking-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-networking-android/1.0.0/core-networking-android-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-networking-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-networking-iosarm64/1.0.0/core-networking-iosarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-networking-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-networking-iosarm64/1.0.0/core-networking-iosarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-networking-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-networking-iosarm64/1.0.0/core-networking-iosarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-networking-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-networking-iossimulatorarm64/1.0.0/core-networking-iossimulatorarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-networking-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-networking-iossimulatorarm64/1.0.0/core-networking-iossimulatorarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-networking-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-networking-iossimulatorarm64/1.0.0/core-networking-iossimulatorarm64-1.0.0.module",
+        "group": "com.sample.kmm",
+        "module": "core-networking-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    }
+  ]
+}

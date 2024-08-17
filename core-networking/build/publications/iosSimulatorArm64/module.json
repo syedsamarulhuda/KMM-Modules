@@ -1,0 +1,199 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-networking/1.0.0/core-networking-1.0.0.module",
+    "group": "com.sample.kmm",
+    "module": "core-networking",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-encoding",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "2.3.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-networking.klib",
+          "url": "core-networking-iossimulatorarm64-1.0.0.klib",
+          "size": 23974,
+          "sha512": "96e8e33f809e7a3a8d6afdd34b4281ba4e06e280af00f163cd2ac5c68c086bc8b235766898d877c81ab56134084730afce5b9b35346b3df804586d394df0dd27",
+          "sha256": "f0e82b0b1c546f96699bc2c03d66acda516a70015ee071d786cb88da33902175",
+          "sha1": "857a9c0690c73a0f108ad22a16e530ee850c4fcb",
+          "md5": "0ee2a24c1f208682561881814424eec1"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-networking-iossimulatorarm64-1.0.0-sources.jar",
+          "url": "core-networking-iossimulatorarm64-1.0.0-sources.jar",
+          "size": 5770,
+          "sha512": "658e2e42840e4f2fa65b222fd402817d9a0ce3e410ec782379e0e3ffc23e8301a10c6d420317d301611161265f3da37f63091db84709a6a7f645cf378ff215bf",
+          "sha256": "d083b0027eafb3deb110c625f755cbce3ec0c97cafd561f41aefed80f6173fbc",
+          "sha1": "73fa407114e1d2bf14602f5704ece20a28c4ee7c",
+          "md5": "7575477ebebd37185d650459346af3f8"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-encoding",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "2.3.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-networking-iossimulatorarm64-1.0.0-metadata.jar",
+          "url": "core-networking-iossimulatorarm64-1.0.0-metadata.jar",
+          "size": 4460,
+          "sha512": "ec8a8abcb116ea473a85d42d26ac1600588301129033c7723d2d03703cc69150eaa7948bf97bc27776c92c83e3fd564fffe431d55188f45144c45abed2df0956",
+          "sha256": "0e1b4461c67f9524b1b0634dc010be211f614f3ede30bf1446afc0afa9bd8c4c",
+          "sha1": "dbe01216a50f02f35858dba348b3227e85d6cd93",
+          "md5": "28c207b416adf250a195ead0d6c8f017"
+        }
+      ]
+    }
+  ]
+}
