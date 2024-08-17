@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../core-networking/1.0.0/core-networking-1.0.0.module",
-    "group": "com.sample.kmm",
+    "url": "../../core-networking/2.0.0/core-networking-2.0.0.module",
+    "group": "com.syedsamarulhuda.kmm",
     "module": "core-networking",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -35,7 +35,7 @@
       "files": [
         {
           "name": "core-networking-debug.aar",
-          "url": "core-networking-android-debug-1.0.0.aar",
+          "url": "core-networking-android-debug-2.0.0.aar",
           "size": 38946,
           "sha512": "d73ffe318c65e202a9989028213399c97c02ae5827bee65c7035e4be031dc73946ff6416e7eae9e29cdbd5e37dfb7947ec4a8826717234cd873efc0d36b78150",
           "sha256": "8719a26049e92502618d1964a804ed9560606c58073100e836d9f00ab30be9f6",
@@ -246,7 +246,7 @@
       "files": [
         {
           "name": "core-networking-debug.aar",
-          "url": "core-networking-android-debug-1.0.0.aar",
+          "url": "core-networking-android-debug-2.0.0.aar",
           "size": 38946,
           "sha512": "d73ffe318c65e202a9989028213399c97c02ae5827bee65c7035e4be031dc73946ff6416e7eae9e29cdbd5e37dfb7947ec4a8826717234cd873efc0d36b78150",
           "sha256": "8719a26049e92502618d1964a804ed9560606c58073100e836d9f00ab30be9f6",
@@ -268,8 +268,8 @@
       },
       "files": [
         {
-          "name": "core-networking-android-debug-1.0.0-sources.jar",
-          "url": "core-networking-android-debug-1.0.0-sources.jar",
+          "name": "core-networking-android-debug-2.0.0-sources.jar",
+          "url": "core-networking-android-debug-2.0.0-sources.jar",
           "size": 5826,
           "sha512": "ec630f96d89e367412bac68e2378381f3f8394cc031026d6a3071780f69030c28d13e97044400f63a3e6f5a303da3f56b719d5008ae92213c6778bd546cb61fd",
           "sha256": "b574489e063248d5a8179c65dda3d4a79a99187c237ee0ac2f6a62b567fde7ac",

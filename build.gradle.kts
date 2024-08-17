@@ -27,3 +27,8 @@ plugins {
     alias(libs.plugins.kotlin.multiplatform) apply false
     alias(libs.plugins.kotlin.serialization) apply false
 }
+
+subprojects{
+    group = "com.syedsamarulhuda.kmm"
+    version = "2.0.0"
+}

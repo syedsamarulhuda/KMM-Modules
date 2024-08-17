@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../common-api/1.0.0/common-api-1.0.0.module",
-    "group": "com.sample.kmm",
+    "url": "../../common-api/2.0.0/common-api-2.0.0.module",
+    "group": "com.syedsamarulhuda.kmm",
     "module": "common-api",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -113,12 +113,12 @@
       "files": [
         {
           "name": "common-api.klib",
-          "url": "common-api-iossimulatorarm64-1.0.0.klib",
-          "size": 32539,
-          "sha512": "f6763a88088ad0d4d11238e90a14af5864e040881e4e5d87f54850cff886ebe03cc26fb97d6536b42b5ae66450f3b10053236742506bb00a7254e5eeeecc77eb",
-          "sha256": "d2998eee73f6e9da5b104e88da4608f850d1fe945f76c88add80c8cd35a0542d",
-          "sha1": "9b962d89b5c329f37d5cd00d5adf8c0f7d6000b9",
-          "md5": "eba47da71ab64c00594656bb3683f1a5"
+          "url": "common-api-iossimulatorarm64-2.0.0.klib",
+          "size": 33253,
+          "sha512": "c576ea522717d7962ea5ade093183fb7d3250fc4983e4d87cdb72b94935ad78014cdaa1c95b647aec4f7a153423296fc32b3a5e914a05fcdeaf7f17be21528a8",
+          "sha256": "b568345d82eaa84e15104c4a063eeb7f8984e1414941856f3848f3f4c807b911",
+          "sha1": "b00d6346131b6effc9dfebd4f29d221a660addf0",
+          "md5": "e0589f440707f691a8a277bce76d2a34"
         }
       ]
     },
@@ -134,13 +134,13 @@
       },
       "files": [
         {
-          "name": "common-api-iossimulatorarm64-1.0.0-sources.jar",
-          "url": "common-api-iossimulatorarm64-1.0.0-sources.jar",
-          "size": 5422,
-          "sha512": "57d567a1f4a630c63423c99001961581e985e47817b566589e60fdb82cc0abe4b47ab5d5046a6e574628d4c9a97a789b879868d85011e4f9f354aaa0812bc828",
-          "sha256": "9c9b367ab3e8cb0e33bc091fbd2894d8512da7fbbdb5005b6d5a9140957f5df8",
-          "sha1": "612dc5a3c082bb33b54694bcd4adc0f39050129a",
-          "md5": "4203d1ec2493fce6c3cb88036171541f"
+          "name": "common-api-iossimulatorarm64-2.0.0-sources.jar",
+          "url": "common-api-iossimulatorarm64-2.0.0-sources.jar",
+          "size": 5659,
+          "sha512": "26f79b7cecac9aa96b299d597eb99d81c76c7a0cb2a333a43aeae515274bfd0bd12c7c539f6d8649aa23496cbb0292e927fb2084827189bbc3ef757537af4239",
+          "sha256": "e1b5c9a2011678d240672e4766de6fa16353c026ad12c452f6f2639cd6dec873",
+          "sha1": "d21ca8ecb1677650f46fc4d5fcd63a1687c3e914",
+          "md5": "300809726650b20ccade2aee2c7c7e2f"
         }
       ]
     },
@@ -241,13 +241,13 @@
       ],
       "files": [
         {
-          "name": "common-api-iossimulatorarm64-1.0.0-metadata.jar",
-          "url": "common-api-iossimulatorarm64-1.0.0-metadata.jar",
+          "name": "common-api-iossimulatorarm64-2.0.0-metadata.jar",
+          "url": "common-api-iossimulatorarm64-2.0.0-metadata.jar",
           "size": 261,
-          "sha512": "b1b5822c4506dd0010b4690223160f82f8d8f5221e957bca1a9de81abe99ccb577e77e7d1269821f1ace5e7fc7bea76c4cc094bb36a6fc54ba292130cfe1bab0",
-          "sha256": "9386a82a7bd42a9e2a1a0acc0f4cb7bd2737bb357fdd43f9c25fda03ff29fe1f",
-          "sha1": "13e089d2c5a377b22d1e83fd5ac751d41b7b947e",
-          "md5": "f02a11edad6788dcefb605fae284284c"
+          "sha512": "7ee186382ee6d0ba00a0cfd839616100df3396d569de4307a62cc90703a6e45ab376679880f7d3943a37253eec516f1a306f1ec62d187ee85e2274c993d2facf",
+          "sha256": "0833207036e9f6e2fff70bae3ab3493eac13660e877dd95622dc321530492e35",
+          "sha1": "5b713907161ba7224514bc95cfa0b57b1db7feb9",
+          "md5": "111cdf8931b350b8fd163f3c6d42bb2b"
         }
       ]
     }

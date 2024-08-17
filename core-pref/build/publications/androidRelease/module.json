@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../core-pref/1.0.0/core-pref-1.0.0.module",
-    "group": "com.sample.kmm",
+    "url": "../../core-pref/2.0.0/core-pref-2.0.0.module",
+    "group": "com.syedsamarulhuda.kmm",
     "module": "core-pref",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -34,7 +34,7 @@
       "files": [
         {
           "name": "core-pref-release.aar",
-          "url": "core-pref-android-1.0.0.aar",
+          "url": "core-pref-android-2.0.0.aar",
           "size": 15837,
           "sha512": "e6c606971b87e9369cfce4ed99542233c78fffbd4239d24af30b0f85e200dcb754e9168fa53cf65f776cd85f6c4a6c69a17822065a1af26f8faa4b16acecd23a",
           "sha256": "767601a16f9387435179191db7e5537437d8bd2f9f8614eb10848ad9badc33a8",
@@ -118,7 +118,7 @@
       "files": [
         {
           "name": "core-pref-release.aar",
-          "url": "core-pref-android-1.0.0.aar",
+          "url": "core-pref-android-2.0.0.aar",
           "size": 15837,
           "sha512": "e6c606971b87e9369cfce4ed99542233c78fffbd4239d24af30b0f85e200dcb754e9168fa53cf65f776cd85f6c4a6c69a17822065a1af26f8faa4b16acecd23a",
           "sha256": "767601a16f9387435179191db7e5537437d8bd2f9f8614eb10848ad9badc33a8",
@@ -139,8 +139,8 @@
       },
       "files": [
         {
-          "name": "core-pref-android-1.0.0-sources.jar",
-          "url": "core-pref-android-1.0.0-sources.jar",
+          "name": "core-pref-android-2.0.0-sources.jar",
+          "url": "core-pref-android-2.0.0-sources.jar",
           "size": 2362,
           "sha512": "8c410b11cc22c22660aada61507abe5d22c36bc52f239448e874fbdbe149b68398e833e6170de57848189aeb911e6734e1b51d35f64d25f30062bf06b41d93b8",
           "sha256": "4657615925c6abd0682ccf65b944b093448b75a680eb3b025c349741ea76281f",

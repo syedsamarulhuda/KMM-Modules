@@ -6,15 +6,7 @@ plugins {
     id("maven-publish")
 }
 
-group = "com.sample.kmm"
-version = "1.0.0"
-publishing {
-    repositories {
-        maven {
-
-        }
-    }
-}
+apply(from = "../maven.publication.gradle")
 
 kotlin {
     androidTarget {

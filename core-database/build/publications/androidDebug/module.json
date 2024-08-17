@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../core-database/1.0.0/core-database-1.0.0.module",
-    "group": "com.sample.kmm",
+    "url": "../../core-database/2.0.0/core-database-2.0.0.module",
+    "group": "com.syedsamarulhuda.kmm",
     "module": "core-database",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -35,7 +35,7 @@
       "files": [
         {
           "name": "core-database-debug.aar",
-          "url": "core-database-android-debug-1.0.0.aar",
+          "url": "core-database-android-debug-2.0.0.aar",
           "size": 24192,
           "sha512": "85f00575a77b5be78a84ffa2c74be466fea979a881e9fad8c83756ab119864d438cd8829e35882ff958aa7619fe9c966f6c12c62ebf484ace950c6a69b7387ea",
           "sha256": "fd00f0fdfbabb3446944cd229dfe8c5369fd61f474c7cab5e0bead6c8484a1bf",
@@ -141,7 +141,7 @@
       "files": [
         {
           "name": "core-database-debug.aar",
-          "url": "core-database-android-debug-1.0.0.aar",
+          "url": "core-database-android-debug-2.0.0.aar",
           "size": 24192,
           "sha512": "85f00575a77b5be78a84ffa2c74be466fea979a881e9fad8c83756ab119864d438cd8829e35882ff958aa7619fe9c966f6c12c62ebf484ace950c6a69b7387ea",
           "sha256": "fd00f0fdfbabb3446944cd229dfe8c5369fd61f474c7cab5e0bead6c8484a1bf",
@@ -163,8 +163,8 @@
       },
       "files": [
         {
-          "name": "core-database-android-debug-1.0.0-sources.jar",
-          "url": "core-database-android-debug-1.0.0-sources.jar",
+          "name": "core-database-android-debug-2.0.0-sources.jar",
+          "url": "core-database-android-debug-2.0.0-sources.jar",
           "size": 8156,
           "sha512": "0dbc9968aa099e80e91160c1dced2b6987a0550bbe85691eb8ef79e264e45bbb8116b710f089298ab1f2b8766ff017561b60bc86eb7722b4676e896d5b795115",
           "sha256": "c0e5fdbf534b52cdbfb0020d54d3e0ffc9ac38be5f4aa887c8b6e8f9387680d5",

@@ -1,0 +1,55 @@
+apply plugin: "maven-publish"
+
+println("Starting Publishing")
+final Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+if (properties.getProperty("maven.repo.name") == null || properties.getProperty("maven.repo.url") == null
+        || properties.getProperty("maven.user") == null || properties.getProperty("maven.apikey") == null) {
+    throw IllegalStateException("Missing credentials for publisihing")
+}
+
+publishing {
+    repositories {
+        println("Publishlog ->  " +
+                "Repo Name: ${properties.getProperty("maven.repo.name")} " +
+                "Repo Url: ${properties.getProperty("maven.repo.url")} " +
+                "User: ${properties.getProperty("maven.user")}, " +
+                "ApiKey: ${properties.getProperty("maven.apikey")}")
+        maven {
+            name = properties.getProperty("maven.repo.name")
+            url = properties.getProperty("maven.repo.url")
+            credentials {
+                username = properties.getProperty("maven.user")
+                password = properties.getProperty("maven.apikey")
+            }
+        }
+    }
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            maven(MavenPublication) {
+                //from components.release
+                artifact(javadocJar)
+                pom {
+                    name = "Kmm Base Modules Library"
+                    description = "Kmm Base Modules To Make KMM Library."
+                    url = properties.getProperty("repo.url")
+                    licenses {
+                        license {
+                            name = "The Apache License, Version 2.0"
+                            url = "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                        }
+                    }
+                    scm { url = properties.getProperty("repo.url") }
+                }
+            }
+        }
+    }
+}
+
+task javadocJar(type: Jar) {
+    archiveClassifier.set('javadoc')
+    from android.sourceSets.main.java.srcDirs
+}

@@ -1,9 +1,9 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "com.sample.kmm",
+    "group": "com.syedsamarulhuda.kmm",
     "module": "core-pref",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -39,8 +39,8 @@
       ],
       "files": [
         {
-          "name": "core-pref-metadata-1.0.0.jar",
-          "url": "core-pref-1.0.0.jar",
+          "name": "core-pref-metadata-2.0.0.jar",
+          "url": "core-pref-2.0.0.jar",
           "size": 3637,
           "sha512": "02519780bd619cb370b6196aa677cebbc42af6f7c24ce347945119268edcd35a81f40e96e20d3a513976e74724bf5f9bd89e2d0541bd89255c2b09a273d25320",
           "sha256": "884e3c2befe9f44362661e138be446098712474a88a41a981e89ccaf349d640e",
@@ -60,8 +60,8 @@
       },
       "files": [
         {
-          "name": "core-pref-kotlin-1.0.0-sources.jar",
-          "url": "core-pref-1.0.0-sources.jar",
+          "name": "core-pref-kotlin-2.0.0-sources.jar",
+          "url": "core-pref-2.0.0-sources.jar",
           "size": 2169,
           "sha512": "3b2fdd0ffa36b92ba5abbdd333d162c61cec60ef8270ced7fcd2a238fb3df0b03cabe609e0b37487fb5603d20637f85e973d93c2fcf5f2448a80e0d278d7b85b",
           "sha256": "bb159cf0860bd08b2f84f62e0ac0438508365ca08544aa9671d6f185457db115",
@@ -79,10 +79,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../core-pref-android-debug/1.0.0/core-pref-android-debug-1.0.0.module",
-        "group": "com.sample.kmm",
+        "url": "../../core-pref-android-debug/2.0.0/core-pref-android-debug-2.0.0.module",
+        "group": "com.syedsamarulhuda.kmm",
         "module": "core-pref-android-debug",
-        "version": "1.0.0"
+        "version": "2.0.0"
       }
     },
     {
@@ -94,10 +94,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../core-pref-android-debug/1.0.0/core-pref-android-debug-1.0.0.module",
-        "group": "com.sample.kmm",
+        "url": "../../core-pref-android-debug/2.0.0/core-pref-android-debug-2.0.0.module",
+        "group": "com.syedsamarulhuda.kmm",
         "module": "core-pref-android-debug",
-        "version": "1.0.0"
+        "version": "2.0.0"
       }
     },
     {
@@ -112,10 +112,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../core-pref-android-debug/1.0.0/core-pref-android-debug-1.0.0.module",
-        "group": "com.sample.kmm",
+        "url": "../../core-pref-android-debug/2.0.0/core-pref-android-debug-2.0.0.module",
+        "group": "com.syedsamarulhuda.kmm",
         "module": "core-pref-android-debug",
-        "version": "1.0.0"
+        "version": "2.0.0"
       }
     },
     {
@@ -126,10 +126,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../core-pref-android/1.0.0/core-pref-android-1.0.0.module",
-        "group": "com.sample.kmm",
+        "url": "../../core-pref-android/2.0.0/core-pref-android-2.0.0.module",
+        "group": "com.syedsamarulhuda.kmm",
         "module": "core-pref-android",
-        "version": "1.0.0"
+        "version": "2.0.0"
       }
     },
     {
@@ -140,10 +140,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../core-pref-android/1.0.0/core-pref-android-1.0.0.module",
-        "group": "com.sample.kmm",
+        "url": "../../core-pref-android/2.0.0/core-pref-android-2.0.0.module",
+        "group": "com.syedsamarulhuda.kmm",
         "module": "core-pref-android",
-        "version": "1.0.0"
+        "version": "2.0.0"
       }
     },
     {
@@ -157,10 +157,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../core-pref-android/1.0.0/core-pref-android-1.0.0.module",
-        "group": "com.sample.kmm",
+        "url": "../../core-pref-android/2.0.0/core-pref-android-2.0.0.module",
+        "group": "com.syedsamarulhuda.kmm",
         "module": "core-pref-android",
-        "version": "1.0.0"
+        "version": "2.0.0"
       }
     },
     {
@@ -173,10 +173,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../core-pref-iosarm64/1.0.0/core-pref-iosarm64-1.0.0.module",
-        "group": "com.sample.kmm",
+        "url": "../../core-pref-iosarm64/2.0.0/core-pref-iosarm64-2.0.0.module",
+        "group": "com.syedsamarulhuda.kmm",
         "module": "core-pref-iosarm64",
-        "version": "1.0.0"
+        "version": "2.0.0"
       }
     },
     {
@@ -190,10 +190,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../core-pref-iosarm64/1.0.0/core-pref-iosarm64-1.0.0.module",
-        "group": "com.sample.kmm",
+        "url": "../../core-pref-iosarm64/2.0.0/core-pref-iosarm64-2.0.0.module",
+        "group": "com.syedsamarulhuda.kmm",
         "module": "core-pref-iosarm64",
-        "version": "1.0.0"
+        "version": "2.0.0"
       }
     },
     {
@@ -206,10 +206,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../core-pref-iosarm64/1.0.0/core-pref-iosarm64-1.0.0.module",
-        "group": "com.sample.kmm",
+        "url": "../../core-pref-iosarm64/2.0.0/core-pref-iosarm64-2.0.0.module",
+        "group": "com.syedsamarulhuda.kmm",
         "module": "core-pref-iosarm64",
-        "version": "1.0.0"
+        "version": "2.0.0"
       }
     },
     {
@@ -222,10 +222,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../core-pref-iossimulatorarm64/1.0.0/core-pref-iossimulatorarm64-1.0.0.module",
-        "group": "com.sample.kmm",
+        "url": "../../core-pref-iossimulatorarm64/2.0.0/core-pref-iossimulatorarm64-2.0.0.module",
+        "group": "com.syedsamarulhuda.kmm",
         "module": "core-pref-iossimulatorarm64",
-        "version": "1.0.0"
+        "version": "2.0.0"
       }
     },
     {
@@ -239,10 +239,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../core-pref-iossimulatorarm64/1.0.0/core-pref-iossimulatorarm64-1.0.0.module",
-        "group": "com.sample.kmm",
+        "url": "../../core-pref-iossimulatorarm64/2.0.0/core-pref-iossimulatorarm64-2.0.0.module",
+        "group": "com.syedsamarulhuda.kmm",
         "module": "core-pref-iossimulatorarm64",
-        "version": "1.0.0"
+        "version": "2.0.0"
       }
     },
     {
@@ -255,10 +255,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../core-pref-iossimulatorarm64/1.0.0/core-pref-iossimulatorarm64-1.0.0.module",
-        "group": "com.sample.kmm",
+        "url": "../../core-pref-iossimulatorarm64/2.0.0/core-pref-iossimulatorarm64-2.0.0.module",
+        "group": "com.syedsamarulhuda.kmm",
         "module": "core-pref-iossimulatorarm64",
-        "version": "1.0.0"
+        "version": "2.0.0"
       }
     }
   ]

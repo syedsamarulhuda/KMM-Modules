@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../core-database/1.0.0/core-database-1.0.0.module",
-    "group": "com.sample.kmm",
+    "url": "../../core-database/2.0.0/core-database-2.0.0.module",
+    "group": "com.syedsamarulhuda.kmm",
     "module": "core-database",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -57,12 +57,12 @@
       "files": [
         {
           "name": "core-database.klib",
-          "url": "core-database-iossimulatorarm64-1.0.0.klib",
-          "size": 24685,
-          "sha512": "f6d9c986d6f5b4b1bf8aa9d41ec415af983be1d767c3f361ea7c1ff74a1eb6e760b9025ecfdad2d06c82c20a6d66862611a5519bb6158f6061f124b19e77aee3",
-          "sha256": "7e76e8ed1ad9c52573218960afed55dc4eb14b71e9c5249a3af5a05328767baa",
-          "sha1": "f5beb8ed9bcc34ed8b1d13419f65f87f7afbc8c4",
-          "md5": "16bb12359dc4a5dd8aa84ce3ddd26709"
+          "url": "core-database-iossimulatorarm64-2.0.0.klib",
+          "size": 24706,
+          "sha512": "9a835140690b3a3ec281f77594f9458517f327a0a7af6c285a68c0c10b11a31e6590a54ab16f5ed569080a1c9c9cfea93053b6fc35a424e3a94014412f9b4684",
+          "sha256": "785a03ec96c4730893bbdf2e3864654f0761e2b5ee4d211691d26ad5dc4d51e7",
+          "sha1": "54bc327a2599f007b18abd36a3d09b774ab026fe",
+          "md5": "251b4abaf4cf7149e68cc42a2163be51"
         }
       ]
     },
@@ -78,8 +78,8 @@
       },
       "files": [
         {
-          "name": "core-database-iossimulatorarm64-1.0.0-sources.jar",
-          "url": "core-database-iossimulatorarm64-1.0.0-sources.jar",
+          "name": "core-database-iossimulatorarm64-2.0.0-sources.jar",
+          "url": "core-database-iossimulatorarm64-2.0.0-sources.jar",
           "size": 8107,
           "sha512": "8ee4b1b70a4891a1cf0ece0a4ea75d972a38fdd3939f0202c5e6743a8c698b57fa7e383d2380cfae5cf406c812f934a8bd2a6f4d8c7acc320330a677146f94cb",
           "sha256": "3ff9389d89d3d535a7c46eb89a756111cebdc5c5de245d2026551d86555b2390",
@@ -129,13 +129,13 @@
       ],
       "files": [
         {
-          "name": "core-database-iossimulatorarm64-1.0.0-metadata.jar",
-          "url": "core-database-iossimulatorarm64-1.0.0-metadata.jar",
-          "size": 3747,
-          "sha512": "61bf972e94c11301e50607c770ec711e1af004dfe6a8e419ea8d2ce8dc23eb9a507509bbb13eb9775d015783c0ea77437cd282ec79dbaf92034e4fbfc5588e63",
-          "sha256": "9e3a22870e94ce9b03e9c019b60f958fdb580f23a8ee99d5f49f5458d65d539d",
-          "sha1": "548dec900fe233427fdcb1f063dad94aee05d03d",
-          "md5": "5c9214b7d2f5cc166df0b1ac28f167de"
+          "name": "core-database-iossimulatorarm64-2.0.0-metadata.jar",
+          "url": "core-database-iossimulatorarm64-2.0.0-metadata.jar",
+          "size": 3770,
+          "sha512": "1f007ae30ece7c011c6458683ea0c9a387d97a91a9dcc09b2d2f7b2e35cd7f6a96473cc94bc2ad6ffd3e5178f15b61e031cb2c058a21a25552c43f154c7f1c0c",
+          "sha256": "ef6a870a6c9368e68a1fcd328acb7fd05ba3c1975f49115e67bd61116f3599b4",
+          "sha1": "6b594fd45534b1790595565c48b6654d1f9064d0",
+          "md5": "ad4d4e052e58d7926ad8546fd4a68978"
         }
       ]
     }

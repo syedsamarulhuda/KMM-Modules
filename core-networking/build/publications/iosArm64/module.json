@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../core-networking/1.0.0/core-networking-1.0.0.module",
-    "group": "com.sample.kmm",
+    "url": "../../core-networking/2.0.0/core-networking-2.0.0.module",
+    "group": "com.syedsamarulhuda.kmm",
     "module": "core-networking",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -85,12 +85,12 @@
       "files": [
         {
           "name": "core-networking.klib",
-          "url": "core-networking-iosarm64-1.0.0.klib",
-          "size": 23888,
-          "sha512": "c8d91fecfcc5e3e3aabdb0784e4c42fdcae3dbfa9d88c7f99c48e8175497edf6d6c8b4dddd8095b71a574b545990615649d9009a7b0961b97ddd7b6889f1812e",
-          "sha256": "d9523488bb069c66f3b1bb3befa92195b6ee6b1ff2034e15ed1e68fc0b6350b7",
-          "sha1": "3644dc47886971fd83604c6c41681e38bb5c65d6",
-          "md5": "18f3a0571080894f9b2a7018175bc213"
+          "url": "core-networking-iosarm64-2.0.0.klib",
+          "size": 23909,
+          "sha512": "a509fc250330dcba1fdc21c5a8fd22e054db4f148415e9af6b7be6a1272d9c9f049d4f5ad1db26c11dd1bb3e8daf1ab8460b3d6758e009baab8c92ad23b4c1a1",
+          "sha256": "d04a6bb0bf20972ca4dd8aee138c9a06ed93b932005566ff683a530a5877a4d7",
+          "sha1": "063b2d2f632fa5814edef961394bf482885b9ba2",
+          "md5": "e47d78a043340433f31b18883ef71816"
         }
       ]
     },
@@ -106,8 +106,8 @@
       },
       "files": [
         {
-          "name": "core-networking-iosarm64-1.0.0-sources.jar",
-          "url": "core-networking-iosarm64-1.0.0-sources.jar",
+          "name": "core-networking-iosarm64-2.0.0-sources.jar",
+          "url": "core-networking-iosarm64-2.0.0-sources.jar",
           "size": 5770,
           "sha512": "658e2e42840e4f2fa65b222fd402817d9a0ce3e410ec782379e0e3ffc23e8301a10c6d420317d301611161265f3da37f63091db84709a6a7f645cf378ff215bf",
           "sha256": "d083b0027eafb3deb110c625f755cbce3ec0c97cafd561f41aefed80f6173fbc",
@@ -185,13 +185,13 @@
       ],
       "files": [
         {
-          "name": "core-networking-iosarm64-1.0.0-metadata.jar",
-          "url": "core-networking-iosarm64-1.0.0-metadata.jar",
-          "size": 4460,
-          "sha512": "ec8a8abcb116ea473a85d42d26ac1600588301129033c7723d2d03703cc69150eaa7948bf97bc27776c92c83e3fd564fffe431d55188f45144c45abed2df0956",
-          "sha256": "0e1b4461c67f9524b1b0634dc010be211f614f3ede30bf1446afc0afa9bd8c4c",
-          "sha1": "dbe01216a50f02f35858dba348b3227e85d6cd93",
-          "md5": "28c207b416adf250a195ead0d6c8f017"
+          "name": "core-networking-iosarm64-2.0.0-metadata.jar",
+          "url": "core-networking-iosarm64-2.0.0-metadata.jar",
+          "size": 4482,
+          "sha512": "e2d75db139604b156acd03deba0274aa584c9fe4337dfb655608e10f51e42512e8766100cdeda21c309b4e6782ff01f6c7aa9bfb3aa92b6e3f3e7eabe618696f",
+          "sha256": "a7c4567203d7ba2f6bee24aff40d67544b12d38b7c498bfb341baad18c17a9e5",
+          "sha1": "9b22d358bfc22449adb7c24b0f4b3c2e4840b690",
+          "md5": "d77ab3191ef0666d1848a84531e95ab4"
         }
       ]
     }

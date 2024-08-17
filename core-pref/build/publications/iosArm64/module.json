@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../core-pref/1.0.0/core-pref-1.0.0.module",
-    "group": "com.sample.kmm",
+    "url": "../../core-pref/2.0.0/core-pref-2.0.0.module",
+    "group": "com.syedsamarulhuda.kmm",
     "module": "core-pref",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -43,12 +43,12 @@
       "files": [
         {
           "name": "core-pref.klib",
-          "url": "core-pref-iosarm64-1.0.0.klib",
-          "size": 10237,
-          "sha512": "b6b57529d39f8f97ff0c3df07d75d96479d206bdab82005c8e7cfb1929ca6e1133f0e4fe5ce4ebee18ed9ba19a4544b8a056ac66a184115a923192730ad7e8ec",
-          "sha256": "5d5d4acd4318db67a4373a7e5928da4cac4cd73de986951347d6771eb68b8124",
-          "sha1": "e0d5700474b5bbbb762fd3d7866d0506a9f013c8",
-          "md5": "cbf59b302880226f90bd0263dd22c108"
+          "url": "core-pref-iosarm64-2.0.0.klib",
+          "size": 10258,
+          "sha512": "c885884d085a60dc1122a62766a2280e07c69e769c3e0fe0012c6256ec25d1fdaabada524db14267197c9ca3b0919209f86171f878fb2dee9bda8dfeee0a19e4",
+          "sha256": "3d5d917b1f85c204734f16ce694b30fb4ca2d0553c9a3c4ca92ff80b115bb744",
+          "sha1": "2670d522ff7358ecd65a1f1bdd537eb08e2ad445",
+          "md5": "074990e8e9ca4a9f9e573c49efee2c24"
         }
       ]
     },
@@ -64,8 +64,8 @@
       },
       "files": [
         {
-          "name": "core-pref-iosarm64-1.0.0-sources.jar",
-          "url": "core-pref-iosarm64-1.0.0-sources.jar",
+          "name": "core-pref-iosarm64-2.0.0-sources.jar",
+          "url": "core-pref-iosarm64-2.0.0-sources.jar",
           "size": 2169,
           "sha512": "cbb02d6821470a1ad1901487b6e567742f1bfa0e001867d052acd2e38b30ec1f93e8849a73f0b75301de322147a62c92686580f23c3b71a133aa700c0f723e9b",
           "sha256": "d1df919dfab7fb9b0cf95143c32f905127dc288aaa46538336bf31e7968215e8",
@@ -101,13 +101,13 @@
       ],
       "files": [
         {
-          "name": "core-pref-iosarm64-1.0.0-metadata.jar",
-          "url": "core-pref-iosarm64-1.0.0-metadata.jar",
-          "size": 3871,
-          "sha512": "93ba8be6f732cb0b0c845da768d1b02f526146f8e94406156adf5cb42017a80d4cd6251bb4a0de0b28cbe0fd61994bc4e4d1351fbd3d367b536509a7f1eaf5f4",
-          "sha256": "1f02a85bb8af47162ccda9bf1a647adb03d52b8ac4f3c9856e25f4741df3f0e1",
-          "sha1": "7b73e414ee7d97fdf211b7c7a1b3cae7bc6a1c7a",
-          "md5": "d3a4ba6d59c5d0b6c83187a139dd7d88"
+          "name": "core-pref-iosarm64-2.0.0-metadata.jar",
+          "url": "core-pref-iosarm64-2.0.0-metadata.jar",
+          "size": 3894,
+          "sha512": "85dd538e6f5f2373f2b4224f001bbadb97acc8cd09b7c4595c5f7efaa34460fb31eb00641c63b54fe96c1ce871b6b404d97c57ccfed12fbe4a0740900856460d",
+          "sha256": "83185a2bc78a1d87ca1e9973079046c2c99d1e1e628ad23bc248e5b56ce8e5d2",
+          "sha1": "5d298c8d9178e0f88ae6ff22a04f05b34aa0d793",
+          "md5": "b05d2f4acfc541b641a0ee6e4a3b3d19"
         }
       ]
     }
