@@ -67,6 +67,50 @@ class CommonNetworkClient(
         return request(host, HttpMethod.Get, pathSegment, headers, queryParam, null)
     }
 
+    @Throws(Throwable::class)
+    suspend inline fun <reified T> post(
+        host: String?,
+        pathSegment: List<String>?,
+        headers: Map<String, String>?,
+        queryParam: Map<String, String>?,
+        requestBody: Any?
+    ): Result<NetworkResponse<T>> {
+        return request(host, HttpMethod.Post, pathSegment, headers, queryParam, requestBody)
+    }
+
+    @Throws(Throwable::class)
+    suspend inline fun <reified T> put(
+        host: String?,
+        pathSegment: List<String>?,
+        headers: Map<String, String>?,
+        queryParam: Map<String, String>?,
+        requestBody: Any?
+    ): Result<NetworkResponse<T>> {
+        return request(host, HttpMethod.Put, pathSegment, headers, queryParam, requestBody)
+    }
+
+    @Throws(Throwable::class)
+    suspend inline fun <reified T> delete(
+        host: String?,
+        pathSegment: List<String>?,
+        headers: Map<String, String>?,
+        queryParam: Map<String, String>?,
+        requestBody: Any?
+    ): Result<NetworkResponse<T>> {
+        return request(host, HttpMethod.Delete, pathSegment, headers, queryParam, requestBody)
+    }
+
+    @Throws(Throwable::class)
+    suspend inline fun <reified T> patch(
+        host: String?,
+        pathSegment: List<String>?,
+        headers: Map<String, String>?,
+        queryParam: Map<String, String>?,
+        requestBody: Any?
+    ): Result<NetworkResponse<T>> {
+        return request(host, HttpMethod.Patch, pathSegment, headers, queryParam, requestBody)
+    }
+
 
     @Throws(Throwable::class)
     suspend inline fun <reified T> request(

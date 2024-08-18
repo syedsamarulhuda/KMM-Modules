@@ -27,3 +27,9 @@ data class Support(
     @SerialName("url") val lastName: String,
     @SerialName("text") val avatar: String,
 )
+
+@Serializable
+data class CreateRequest(
+    @SerialName("name") val name: String?,
+    @SerialName("job") val job: String?,
+)
