@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../core-networking/2.0.0/core-networking-2.0.0.module",
+    "url": "../../core-networking/2.0.3/core-networking-2.0.3.module",
     "group": "com.syedsamarulhuda.kmm",
     "module": "core-networking",
-    "version": "2.0.0",
+    "version": "2.0.3",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -85,12 +85,12 @@
       "files": [
         {
           "name": "core-networking.klib",
-          "url": "core-networking-iossimulatorarm64-2.0.0.klib",
-          "size": 23995,
-          "sha512": "6420497735ae344f596786936109d98c4519709969a6a3d5c08d60532c47715e6cb0f698affc43f867196b93dd08e7d7a24e994549ed665011d3c19943dbc611",
-          "sha256": "8cb605b9baf27f01eb7fbb39faa6890a263514199b66d63df34bdf6a22a781f8",
-          "sha1": "cc7a4f56c15b8d1d3942c045f6c1ffa3560457d6",
-          "md5": "e830d824adff04b6a47e8d4b6a7b8349"
+          "url": "core-networking-iossimulatorarm64-2.0.3.klib",
+          "size": 27820,
+          "sha512": "5a55a19a529b3c2e38c878589644b569725c4aa348c0023d588016c6fbdcd2a712614318f36fa5771612d9aceb85f52c593e708bc51ae07221cfe146808a9780",
+          "sha256": "260cb80e2ea05e8a656e3d58e2a3eaf187271004e3744d8c60622eda70420f9b",
+          "sha1": "dc9ddad76bbc79f014fe80d9326751b2b514e661",
+          "md5": "b7d24756767adba7c6802913a2cabc9b"
         }
       ]
     },
@@ -106,13 +106,13 @@
       },
       "files": [
         {
-          "name": "core-networking-iossimulatorarm64-2.0.0-sources.jar",
-          "url": "core-networking-iossimulatorarm64-2.0.0-sources.jar",
-          "size": 5770,
-          "sha512": "658e2e42840e4f2fa65b222fd402817d9a0ce3e410ec782379e0e3ffc23e8301a10c6d420317d301611161265f3da37f63091db84709a6a7f645cf378ff215bf",
-          "sha256": "d083b0027eafb3deb110c625f755cbce3ec0c97cafd561f41aefed80f6173fbc",
-          "sha1": "73fa407114e1d2bf14602f5704ece20a28c4ee7c",
-          "md5": "7575477ebebd37185d650459346af3f8"
+          "name": "core-networking-iossimulatorarm64-2.0.3-sources.jar",
+          "url": "core-networking-iossimulatorarm64-2.0.3-sources.jar",
+          "size": 6131,
+          "sha512": "208df3d69ab6cf672a6705269d2264441910ca98a8871876be22b4df49c6d52ce94753f04e20cad8492b198d8438c92a1f848191ea356a7c11e85d3091e796a3",
+          "sha256": "eada6acf5d9046d11af5d81516c1c002d0d2627fc7cf46f91cc0422259ae7545",
+          "sha1": "7ac818cf13e6a8a3a64415d1542632d51a108d89",
+          "md5": "6c769a5e08b01a637cd4fdd84d8600ca"
         }
       ]
     },
@@ -185,13 +185,13 @@
       ],
       "files": [
         {
-          "name": "core-networking-iossimulatorarm64-2.0.0-metadata.jar",
-          "url": "core-networking-iossimulatorarm64-2.0.0-metadata.jar",
-          "size": 4482,
-          "sha512": "59e94573ed025d787a2d692145f3de473c887829a40edc3298f4395917a2933c20d456d5994679790aaf4f59e0b3dc9b6aeddfee2e1d9e5af628ad9ac4846fd2",
-          "sha256": "5f8892fb310680c7c1fb60ee2077631ca0f2e0a7ad34bb4093693ad17d9b5c77",
-          "sha1": "9924482273ad149418dfb31fad64edcb32ab7e67",
-          "md5": "bf07676200c0afbb7b1507975b4cfd06"
+          "name": "core-networking-iossimulatorarm64-2.0.3-metadata.jar",
+          "url": "core-networking-iossimulatorarm64-2.0.3-metadata.jar",
+          "size": 4543,
+          "sha512": "fa4148a7b7f67259e4af3573fbe84a010b2caaf16a501957991ec531962d2a5504b41d297361fa2e2c2c158628479cf6adc9121a66267daa8e017be1a56b53ea",
+          "sha256": "885d014317bc44fc73df1dfa107c83e7ce8b6febb782bd53d7ce7e671ac457f4",
+          "sha1": "ff0638cb3f822fc7566ace8a1536174b50835d7a",
+          "md5": "9e4f30edb915df207c1de6c6e1eeac70"
         }
       ]
     }

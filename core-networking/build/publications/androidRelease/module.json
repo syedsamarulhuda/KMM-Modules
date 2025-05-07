@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../core-networking/2.0.0/core-networking-2.0.0.module",
+    "url": "../../core-networking/2.0.3/core-networking-2.0.3.module",
     "group": "com.syedsamarulhuda.kmm",
     "module": "core-networking",
-    "version": "2.0.0",
+    "version": "2.0.3",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -34,12 +34,12 @@
       "files": [
         {
           "name": "core-networking-release.aar",
-          "url": "core-networking-android-2.0.0.aar",
-          "size": 37113,
-          "sha512": "db9358ac149dbac8c384a2f5de49a730e71b1adacb4a0911e409b617edaf932bbc8e9044b9ca1fefaea2da8b5cea877449bafee122785b59c90961c96a936de8",
-          "sha256": "61e90cf3797ddde42482a6c50435fa4f207f5b55a040841aad7a060bc0bba6b1",
-          "sha1": "7b2283d2a23a6853d3c8e0f9849c3b5daf6a5b21",
-          "md5": "cb58d8d1bdf1e6b56a8a457c5fadb335"
+          "url": "core-networking-android-2.0.3.aar",
+          "size": 45906,
+          "sha512": "74efe0de8b0e8018aeb7297e39487e482fb3260952868794213f4488a801010eee78bef40f806b369f68116b5d8858d240824736f8f8219a27c1ff81b8ce5abe",
+          "sha256": "aa93e06a35005bbdba2c856dce918917a671029f3b67ee0615ad9edc5bc2508c",
+          "sha1": "7df45c996c516bf9252bac85f7942ab35937a240",
+          "md5": "d20faaa0515c4007a90f56e4227b0f4f"
         }
       ]
     },
@@ -244,12 +244,12 @@
       "files": [
         {
           "name": "core-networking-release.aar",
-          "url": "core-networking-android-2.0.0.aar",
-          "size": 37113,
-          "sha512": "db9358ac149dbac8c384a2f5de49a730e71b1adacb4a0911e409b617edaf932bbc8e9044b9ca1fefaea2da8b5cea877449bafee122785b59c90961c96a936de8",
-          "sha256": "61e90cf3797ddde42482a6c50435fa4f207f5b55a040841aad7a060bc0bba6b1",
-          "sha1": "7b2283d2a23a6853d3c8e0f9849c3b5daf6a5b21",
-          "md5": "cb58d8d1bdf1e6b56a8a457c5fadb335"
+          "url": "core-networking-android-2.0.3.aar",
+          "size": 45906,
+          "sha512": "74efe0de8b0e8018aeb7297e39487e482fb3260952868794213f4488a801010eee78bef40f806b369f68116b5d8858d240824736f8f8219a27c1ff81b8ce5abe",
+          "sha256": "aa93e06a35005bbdba2c856dce918917a671029f3b67ee0615ad9edc5bc2508c",
+          "sha1": "7df45c996c516bf9252bac85f7942ab35937a240",
+          "md5": "d20faaa0515c4007a90f56e4227b0f4f"
         }
       ]
     },
@@ -265,13 +265,13 @@
       },
       "files": [
         {
-          "name": "core-networking-android-2.0.0-sources.jar",
-          "url": "core-networking-android-2.0.0-sources.jar",
-          "size": 5826,
-          "sha512": "ec630f96d89e367412bac68e2378381f3f8394cc031026d6a3071780f69030c28d13e97044400f63a3e6f5a303da3f56b719d5008ae92213c6778bd546cb61fd",
-          "sha256": "b574489e063248d5a8179c65dda3d4a79a99187c237ee0ac2f6a62b567fde7ac",
-          "sha1": "5637e8269758821770aeba473656320d1e0970f1",
-          "md5": "b1e59420fad702f2e0f5e2c37086a97f"
+          "name": "core-networking-android-2.0.3-sources.jar",
+          "url": "core-networking-android-2.0.3-sources.jar",
+          "size": 6187,
+          "sha512": "102b2663d58ada1e2a33666e69d62cf3eb1cbbaf59b7fcd9ec8c201f14fc54e1e4162536772d9d1f9e4e689b6c1e474de11fc022921b2638e8ad978ec4eac597",
+          "sha256": "2894e72b8579078f310256e3d846819ebf25ab6e335439ab45b8610acdd7c500",
+          "sha1": "df03ef30b3115d2a5506442808a4878e52495320",
+          "md5": "069fd1aeb7c40f6920864203d3ab58f9"
         }
       ]
     }

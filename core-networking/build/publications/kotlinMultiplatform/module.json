@@ -3,7 +3,7 @@
   "component": {
     "group": "com.syedsamarulhuda.kmm",
     "module": "core-networking",
-    "version": "2.0.0",
+    "version": "2.0.3",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -81,13 +81,13 @@
       ],
       "files": [
         {
-          "name": "core-networking-metadata-2.0.0.jar",
-          "url": "core-networking-2.0.0.jar",
-          "size": 5241,
-          "sha512": "228b0cd4adcbbe106f01a02351ef8125b2bc4fa9e30229943c4f5530e664e05a5e1a3b773760f81d5963b93c3c3c6b5dbffc8d4e319f9125b40a8c9b89332d0d",
-          "sha256": "a17cddf6b0b8469bf4b34f8337173fdaebb9abcac1aca1ba4b51617f15aa3c1d",
-          "sha1": "bf7a4c299c4dbd5d5c87db4a5b75d30fdf41ba66",
-          "md5": "ebbd05299ff38dfe323ac8c7af29f882"
+          "name": "core-networking-metadata-2.0.3.jar",
+          "url": "core-networking-2.0.3.jar",
+          "size": 5412,
+          "sha512": "6462928e9aa1d37640e37247599b8b474ccc4dd6a5b86ae710b3cf8ba6a1a8ac1d3660e358b00f8dcc5e81d53f1ccb6e0108ceb7313ec424a61e1d4fcc3258d3",
+          "sha256": "03cdce424fff91734998b0b4efcf53ecde3dfc33c09b183010da459b70045a96",
+          "sha1": "84329c3294f329b8b1648ecb836379bbb081717c",
+          "md5": "67824965e59f160d315bc3c2f63c37a8"
         }
       ]
     },
@@ -102,13 +102,13 @@
       },
       "files": [
         {
-          "name": "core-networking-kotlin-2.0.0-sources.jar",
-          "url": "core-networking-2.0.0-sources.jar",
-          "size": 5770,
-          "sha512": "657ef9413ac93a3483179760f63286489e3a3eb2bc378411ff3eb6e54bd330e5acd1975b8f5a6976b0e8a78871e488db4ad8703ab72bd7e418fe703de5bd9fb5",
-          "sha256": "c9b8c097d582d4025723dc7dd74d5b3f73e5b7371d670144bf2f61cfe5b33bb1",
-          "sha1": "ea9eaf3286f77fe72de69a9602eb5c1c57d4aa9f",
-          "md5": "473c77531e463459c3fcf5333201a224"
+          "name": "core-networking-kotlin-2.0.3-sources.jar",
+          "url": "core-networking-2.0.3-sources.jar",
+          "size": 6131,
+          "sha512": "d839fd5f87b5ada307e726aa6cf5cce422c30deb9be23a346dab9d139fd0a8f5d98fc4e9dc601e92e2428c6ecf212f0982c3a8de17a967912c3f1cd317c123df",
+          "sha256": "3a4c63b28a1a18295b6e6beec4351aea951ab93acc16f1010a83b54ffd820cd6",
+          "sha1": "ad3a7e8412968d00fc5a2d8238408ab9581d982a",
+          "md5": "595f13960eacfd429af035691d0b106a"
         }
       ]
     },
@@ -121,10 +121,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../core-networking-android-debug/2.0.0/core-networking-android-debug-2.0.0.module",
+        "url": "../../core-networking-android-debug/2.0.3/core-networking-android-debug-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "core-networking-android-debug",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -136,10 +136,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../core-networking-android-debug/2.0.0/core-networking-android-debug-2.0.0.module",
+        "url": "../../core-networking-android-debug/2.0.3/core-networking-android-debug-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "core-networking-android-debug",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -154,10 +154,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../core-networking-android-debug/2.0.0/core-networking-android-debug-2.0.0.module",
+        "url": "../../core-networking-android-debug/2.0.3/core-networking-android-debug-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "core-networking-android-debug",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -168,10 +168,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../core-networking-android/2.0.0/core-networking-android-2.0.0.module",
+        "url": "../../core-networking-android/2.0.3/core-networking-android-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "core-networking-android",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -182,10 +182,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../core-networking-android/2.0.0/core-networking-android-2.0.0.module",
+        "url": "../../core-networking-android/2.0.3/core-networking-android-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "core-networking-android",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -199,10 +199,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../core-networking-android/2.0.0/core-networking-android-2.0.0.module",
+        "url": "../../core-networking-android/2.0.3/core-networking-android-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "core-networking-android",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -215,10 +215,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../core-networking-iosarm64/2.0.0/core-networking-iosarm64-2.0.0.module",
+        "url": "../../core-networking-iosarm64/2.0.3/core-networking-iosarm64-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "core-networking-iosarm64",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -232,10 +232,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../core-networking-iosarm64/2.0.0/core-networking-iosarm64-2.0.0.module",
+        "url": "../../core-networking-iosarm64/2.0.3/core-networking-iosarm64-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "core-networking-iosarm64",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -248,10 +248,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../core-networking-iosarm64/2.0.0/core-networking-iosarm64-2.0.0.module",
+        "url": "../../core-networking-iosarm64/2.0.3/core-networking-iosarm64-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "core-networking-iosarm64",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -264,10 +264,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../core-networking-iossimulatorarm64/2.0.0/core-networking-iossimulatorarm64-2.0.0.module",
+        "url": "../../core-networking-iossimulatorarm64/2.0.3/core-networking-iossimulatorarm64-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "core-networking-iossimulatorarm64",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -281,10 +281,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../core-networking-iossimulatorarm64/2.0.0/core-networking-iossimulatorarm64-2.0.0.module",
+        "url": "../../core-networking-iossimulatorarm64/2.0.3/core-networking-iossimulatorarm64-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "core-networking-iossimulatorarm64",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -297,10 +297,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../core-networking-iossimulatorarm64/2.0.0/core-networking-iossimulatorarm64-2.0.0.module",
+        "url": "../../core-networking-iossimulatorarm64/2.0.3/core-networking-iossimulatorarm64-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "core-networking-iossimulatorarm64",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     }
   ]

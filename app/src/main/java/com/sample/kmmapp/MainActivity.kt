@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
             KMMAPPTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        modifier = Modifier.padding(innerPadding)
+                        modifier = Modifier.padding(innerPadding),
                     )
                 }
             }
@@ -32,11 +32,13 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@Suppress("ktlint:standard:function-naming")
 @Composable
 fun Greeting(modifier: Modifier = Modifier) {
     SampleKmpProvider.testMainPage.Load()
 }
 
+@Suppress("ktlint:standard:function-naming")
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {

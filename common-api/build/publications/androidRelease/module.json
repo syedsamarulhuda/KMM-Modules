@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../common-api/2.0.0/common-api-2.0.0.module",
+    "url": "../../common-api/2.0.3/common-api-2.0.3.module",
     "group": "com.syedsamarulhuda.kmm",
     "module": "common-api",
-    "version": "2.0.0",
+    "version": "2.0.3",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -34,12 +34,12 @@
       "files": [
         {
           "name": "common-api-release.aar",
-          "url": "common-api-android-2.0.0.aar",
-          "size": 29086,
-          "sha512": "be6ab9ef6b06178d9f546dfc44b9ca4ac3c127595f0032f3f171f3878f479fb6e313a544cec8075e5ea30cdf9da668e33846795863422cdbadb150684ac89948",
-          "sha256": "865cf6245b3ee4de23db041ac6d650af63e10381c430f5040584cfa42cc11a89",
-          "sha1": "a39a94ff340eb15f6a18cab6559e6aaf5fd08102",
-          "md5": "b2ec76cbc13ac14411356aea26ba5a44"
+          "url": "common-api-android-2.0.3.aar",
+          "size": 34541,
+          "sha512": "6015eb14322715ef7b4478a8f6949bc2e8c4382f909b9be5d03e0abf109af5f87e7a3c8a2fa8d8babc69ef33f9676abf86364e44cd7ae625a8bc490f79993a1d",
+          "sha256": "4dfb532f21720ba72c48c1f7c0f3621adaf6db0ee7e51021027f7642bcce3fde",
+          "sha1": "be6b70fa8cb72fd1f61fd20235e222cf540246f5",
+          "md5": "0a123b837e96183d78acdd84ad265eeb"
         }
       ]
     },
@@ -307,12 +307,12 @@
       "files": [
         {
           "name": "common-api-release.aar",
-          "url": "common-api-android-2.0.0.aar",
-          "size": 29086,
-          "sha512": "be6ab9ef6b06178d9f546dfc44b9ca4ac3c127595f0032f3f171f3878f479fb6e313a544cec8075e5ea30cdf9da668e33846795863422cdbadb150684ac89948",
-          "sha256": "865cf6245b3ee4de23db041ac6d650af63e10381c430f5040584cfa42cc11a89",
-          "sha1": "a39a94ff340eb15f6a18cab6559e6aaf5fd08102",
-          "md5": "b2ec76cbc13ac14411356aea26ba5a44"
+          "url": "common-api-android-2.0.3.aar",
+          "size": 34541,
+          "sha512": "6015eb14322715ef7b4478a8f6949bc2e8c4382f909b9be5d03e0abf109af5f87e7a3c8a2fa8d8babc69ef33f9676abf86364e44cd7ae625a8bc490f79993a1d",
+          "sha256": "4dfb532f21720ba72c48c1f7c0f3621adaf6db0ee7e51021027f7642bcce3fde",
+          "sha1": "be6b70fa8cb72fd1f61fd20235e222cf540246f5",
+          "md5": "0a123b837e96183d78acdd84ad265eeb"
         }
       ]
     },
@@ -328,13 +328,13 @@
       },
       "files": [
         {
-          "name": "common-api-android-2.0.0-sources.jar",
-          "url": "common-api-android-2.0.0-sources.jar",
-          "size": 5691,
-          "sha512": "2e47aa7d1dcd8101d0ea4bf25cb87a2ab9a9972d5e81682ad45b6a941e39403a6d446a09851575a9220172706f5e5b057dc887106aa37f988e098b09382c60b7",
-          "sha256": "23329e9731e3bcd846d7406a359f5dbf97f875c17e048a05f080599dfd5e4343",
-          "sha1": "9bc19248468bdfe0b5fa4214b056eab2549eb218",
-          "md5": "d36b291f1c0d87234b7c3cbf2414405a"
+          "name": "common-api-android-2.0.3-sources.jar",
+          "url": "common-api-android-2.0.3-sources.jar",
+          "size": 5723,
+          "sha512": "44ad2099e0fcc57737b1e37c9a7f2d619c052baf9b990d8648baf57a46c3ca3e965a47825015bfe74c6bd7f0a760a2f51106708c234e4201710504b7a0e84f86",
+          "sha256": "92e7182ce00ce68303459f9c9a68ada759b6cb0e4178db29dacba17cf6b3db99",
+          "sha1": "3f837259250a854e0374fdcb47250e37ab75c1d6",
+          "md5": "ecb286ce708259d99b8e4a7d53d8f658"
         }
       ]
     }

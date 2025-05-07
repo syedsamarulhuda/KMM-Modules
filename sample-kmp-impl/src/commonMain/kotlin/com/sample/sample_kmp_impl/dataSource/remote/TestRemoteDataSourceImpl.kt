@@ -12,18 +12,19 @@ import com.sample.sample_kmp_module.parser.TestParser
 
 class TestRemoteDataSourceImpl(
     private val networkClient: NetworkClient,
-    private val testParser: TestParser
+    private val testParser: TestParser,
 ) : TestRemoteDataSource {
     override suspend fun fetchData(path: String): TestDataModel? {
         val segments = path.urlToSegment()
         val query = mutableMapOf<String, String>()
         query["page"] = "1"
-        return when (val response =
-            networkClient.get<String>(pathSegment = segments, queryParam = query)) {
+        return when (
+            val response =
+                networkClient.get<String>(pathSegment = segments, queryParam = query)
+        ) {
             is Success -> {
                 val response = response.data?.response
                 val testDataModel: TestDataModel? = testParser.deserializer(response)
-                println("##DATA here 1 ${testDataModel}")
                 createTest(path)
                 putTest(path)
                 patchTest(path)
@@ -46,11 +47,12 @@ class TestRemoteDataSourceImpl(
         val segments = path.urlToSegment()
         val requestBody = CreateRequest("test", "test")
 
-        when (val response =
-            networkClient.post<String>(pathSegment = segments, requestBody = requestBody)) {
+        when (
+            val response =
+                networkClient.post<String>(pathSegment = segments, requestBody = requestBody)
+        ) {
             is Success -> {
-                val response = response.data?.response
-                println("##DATA createTest ${response}")
+                response.data?.response
             }
 
             is Error -> {
@@ -62,7 +64,6 @@ class TestRemoteDataSourceImpl(
                 null
             }
         }
-
     }
 
     suspend fun putTest(path: String?) {
@@ -70,11 +71,12 @@ class TestRemoteDataSourceImpl(
         val segments = url.urlToSegment()
         val requestBody = CreateRequest("test", "test")
 
-        when (val response =
-            networkClient.put<String>(pathSegment = segments, requestBody = requestBody)) {
+        when (
+            val response =
+                networkClient.put<String>(pathSegment = segments, requestBody = requestBody)
+        ) {
             is Success -> {
-                val response = response.data?.response
-                println("##DATA Put test ${response}")
+                response.data?.response
             }
 
             is Error -> {
@@ -86,7 +88,6 @@ class TestRemoteDataSourceImpl(
                 null
             }
         }
-
     }
 
     suspend fun patchTest(path: String?) {
@@ -94,11 +95,12 @@ class TestRemoteDataSourceImpl(
         val segments = url.urlToSegment()
         val requestBody = CreateRequest("test", "test")
 
-        when (val response =
-            networkClient.patch<String>(pathSegment = segments, requestBody = requestBody)) {
+        when (
+            val response =
+                networkClient.patch<String>(pathSegment = segments, requestBody = requestBody)
+        ) {
             is Success -> {
-                val response = response.data?.response
-                println("##DATA Patch test ${response}")
+                response.data?.response
             }
 
             is Error -> {
@@ -110,7 +112,6 @@ class TestRemoteDataSourceImpl(
                 null
             }
         }
-
     }
 
     suspend fun deleteTest(path: String?) {
@@ -118,11 +119,12 @@ class TestRemoteDataSourceImpl(
         val segments = url.urlToSegment()
         val requestBody = CreateRequest("test", "test")
 
-        when (val response =
-            networkClient.delete<String>(pathSegment = segments, requestBody = requestBody)) {
+        when (
+            val response =
+                networkClient.delete<String>(pathSegment = segments, requestBody = requestBody)
+        ) {
             is Success -> {
-                val response = response.data?.response
-                println("##DATA Delete test ${response}")
+                response.data?.response
             }
 
             is Error -> {
@@ -134,6 +136,5 @@ class TestRemoteDataSourceImpl(
                 null
             }
         }
-
     }
 }

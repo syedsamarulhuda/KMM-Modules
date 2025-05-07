@@ -20,27 +20,26 @@ import org.koin.core.module.Module
 import org.koin.dsl.module
 
 fun getSampleKmpModules(): List<Module> {
-
-    val testUI = module {
-        single<TestMainPage> { TestMainPageImpl() }
-
-    }
-
-    val module = module {
-        factory { TestScope() }
-
-        scope<TestScope> {
-            scoped<TestRemoteDataSource> { TestRemoteDataSourceImpl(get(), get()) }
-            scoped<TestDatabaseSource> { TestDatabaseSourceImpl(get()) }
-            scoped<TestLocalPref> { TestLocalPrefImpl(get()) }
-            scoped<TestParser> { TestParserImpl() }
-            scoped<TestRepository> { TestRepositoryImpl(get(), get(), get()) }
-            scoped<TestUsecase> { TestUsecaseImpl(get()) }
-            scoped { TestViewModel(get(), get()) }
-            scoped<TestMainPage> { TestMainPageImpl() }
+    val testUI =
+        module {
+            single<TestMainPage> { TestMainPageImpl() }
         }
-    }
+
+    val module =
+        module {
+            factory { TestScope() }
+
+            scope<TestScope> {
+                scoped<TestRemoteDataSource> { TestRemoteDataSourceImpl(get(), get()) }
+                scoped<TestDatabaseSource> { TestDatabaseSourceImpl(get()) }
+                scoped<TestLocalPref> { TestLocalPrefImpl(get()) }
+                scoped<TestParser> { TestParserImpl() }
+                scoped<TestRepository> { TestRepositoryImpl(get(), get(), get()) }
+                scoped<TestUsecase> { TestUsecaseImpl(get()) }
+                scoped { TestViewModel(get(), get()) }
+                scoped<TestMainPage> { TestMainPageImpl() }
+            }
+        }
 
     return listOf(testUI, module)
 }
-

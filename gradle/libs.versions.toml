@@ -1,6 +1,7 @@
 [versions]
 compile-sdk = "34"
 kotlinxSerializationJson = "1.6.3"
+ktorClientLogging = "2.3.7"
 lifecycleViewmodelCompose = "2.8.0"
 min-sdk = "24"
 target-sdk = "24"

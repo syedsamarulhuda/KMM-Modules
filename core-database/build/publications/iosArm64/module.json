@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../core-database/2.0.0/core-database-2.0.0.module",
+    "url": "../../core-database/2.0.3/core-database-2.0.3.module",
     "group": "com.syedsamarulhuda.kmm",
     "module": "core-database",
-    "version": "2.0.0",
+    "version": "2.0.3",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -57,7 +57,7 @@
       "files": [
         {
           "name": "core-database.klib",
-          "url": "core-database-iosarm64-2.0.0.klib",
+          "url": "core-database-iosarm64-2.0.3.klib",
           "size": 24608,
           "sha512": "b1aeeda45248507866b319a27554cb482119e16ef3cc0ed330f7f6d295569d63a032f230a5d36c5733bd65705dfb1c9f40af6f575291d480fd38e23e9cff4ce8",
           "sha256": "45f79b8cc1a2996e3c3c85bbb9387897ac771d672fdc50c8094c7811001e39f2",
@@ -78,8 +78,8 @@
       },
       "files": [
         {
-          "name": "core-database-iosarm64-2.0.0-sources.jar",
-          "url": "core-database-iosarm64-2.0.0-sources.jar",
+          "name": "core-database-iosarm64-2.0.3-sources.jar",
+          "url": "core-database-iosarm64-2.0.3-sources.jar",
           "size": 7963,
           "sha512": "4502b2a1ca8de0bc5b90cb42446f2746640d9c003d1ddccd150a8a137b0f5d0cbcd0eafaf2bcc218762a9417f1c68a02afcef2cd7309ab827938c73b4abe4f15",
           "sha256": "2c41e0c5cdae11ec68c74b6400b2f8af363595810d0ae3df980a2f58e982b778",
@@ -129,13 +129,13 @@
       ],
       "files": [
         {
-          "name": "core-database-iosarm64-2.0.0-metadata.jar",
-          "url": "core-database-iosarm64-2.0.0-metadata.jar",
+          "name": "core-database-iosarm64-2.0.3-metadata.jar",
+          "url": "core-database-iosarm64-2.0.3-metadata.jar",
           "size": 3770,
-          "sha512": "96033738100f7c845cec4b4481f5bfd64cb9c2760a5c6af3ab496530dc39a2d9f8dca3550d2513319dcbc86ee824d8c23b2f85c9daa8c4f26d9df7e846ea9105",
-          "sha256": "dbcc4c3f79b2a72b3b45b4f4a1d00a9b439951b82f5b64f5870799d4d48195e1",
-          "sha1": "22086bdeee35e25feb65f7ba588c6d02a11cc073",
-          "md5": "ebadef06035a570e40de4bb4a83ca712"
+          "sha512": "a3bcd72e0ddae5e7a10857430eab000249401921f867fa7b05d698072d835e5b9b8082172ac2cafc90718e5661280e68a3be41606b1a332b02ffd76b2cb8e75a",
+          "sha256": "8b50bb61b3fd8500eb5cff4a598689640c267ecf3758a29cf6c2c5acbb49e2cd",
+          "sha1": "5f20579f8e9584ea35621d03832b5b5027a87f37",
+          "md5": "4d66c43e002da2d746faf6441b805179"
         }
       ]
     }

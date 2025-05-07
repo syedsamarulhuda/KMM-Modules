@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../common-api/2.0.0/common-api-2.0.0.module",
+    "url": "../../common-api/2.0.3/common-api-2.0.3.module",
     "group": "com.syedsamarulhuda.kmm",
     "module": "common-api",
-    "version": "2.0.0",
+    "version": "2.0.3",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -113,12 +113,12 @@
       "files": [
         {
           "name": "common-api.klib",
-          "url": "common-api-iosarm64-2.0.0.klib",
-          "size": 33166,
-          "sha512": "b9121e7977b6b8b4d6501a6d122dbb94eec93004ab5b27ad700391a6e0fe9a2ebbbd85cf30e31c3e9a6599fd917c3ec6bd3b79a1aa387b591f2f18980a57fd77",
-          "sha256": "ab6c0498d667767b9ceefe84cdbe1b0d1182e8e789b863f069bd15a524d77f7a",
-          "sha1": "ce1957d774ef963e3554198ce21620aee4c4ace6",
-          "md5": "0de23895ce1b0e02cc31538ff7ce3a79"
+          "url": "common-api-iosarm64-2.0.3.klib",
+          "size": 35773,
+          "sha512": "f6e59048dd0a5fbae9ac8ae0ba01ea70540e6f2ebf69049f8dbedf55b1939b9bc3673f1b86649d0838af7bf9b852b359753d730cf976da346d8f8ef18fdeddfc",
+          "sha256": "f304972ab593dbb64e864da766a3567170099f39d9b216c51ada485855de6a6a",
+          "sha1": "4c714134a0698c1355be8dc01d53a2d44baebac8",
+          "md5": "23129979113b5dece93b8b4929b0171a"
         }
       ]
     },
@@ -134,13 +134,13 @@
       },
       "files": [
         {
-          "name": "common-api-iosarm64-2.0.0-sources.jar",
-          "url": "common-api-iosarm64-2.0.0-sources.jar",
-          "size": 5659,
-          "sha512": "26f79b7cecac9aa96b299d597eb99d81c76c7a0cb2a333a43aeae515274bfd0bd12c7c539f6d8649aa23496cbb0292e927fb2084827189bbc3ef757537af4239",
-          "sha256": "e1b5c9a2011678d240672e4766de6fa16353c026ad12c452f6f2639cd6dec873",
-          "sha1": "d21ca8ecb1677650f46fc4d5fcd63a1687c3e914",
-          "md5": "300809726650b20ccade2aee2c7c7e2f"
+          "name": "common-api-iosarm64-2.0.3-sources.jar",
+          "url": "common-api-iosarm64-2.0.3-sources.jar",
+          "size": 5691,
+          "sha512": "54d46bdd454ae0c4f5e06d144ad1d636d08871d3c2c03a43f3ac4b16b9316ec6aba8990b66f66266b3bfb8acef0dbb7ab5285ebe3278f0992bf3057544f00e67",
+          "sha256": "07faa00fbaf18ddd1e6fd6dd64ef178909b6cca59406566309ce8e86916b69ba",
+          "sha1": "76bdff1ff98a76b6d23462f94931a2686b5961a6",
+          "md5": "652da53773b76120e64cdec59161f93d"
         }
       ]
     },
@@ -241,13 +241,13 @@
       ],
       "files": [
         {
-          "name": "common-api-iosarm64-2.0.0-metadata.jar",
-          "url": "common-api-iosarm64-2.0.0-metadata.jar",
+          "name": "common-api-iosarm64-2.0.3-metadata.jar",
+          "url": "common-api-iosarm64-2.0.3-metadata.jar",
           "size": 261,
-          "sha512": "1af32e1f5319becb34341cf933cffe068c25d920eb94803665dcf811f0dda62406483adb9189fc92382e9959ff2bb5b43e841272f1bfd01b5ddddae808bad14c",
-          "sha256": "6f86230b480f3e500305e58558742c82ff5641e6120cf0851bd7d371798b0cdf",
-          "sha1": "c8c8c91477cbb5002cc8a36853c24b3e8906e1e9",
-          "md5": "00ad10f73557e5f4ab2558b267f9c781"
+          "sha512": "5126ed9a4b5a1b9f91a942b147ef86d88598ead2c5dcf9d0a9b803cb657b6be6bd03fde8756a11259d427ab6c5fa5daebb7531095142d3207c0fed7f2682464f",
+          "sha256": "96d03767c6b8a224248bc9e0af7777bedef1082a76c7adebf4226ade8c1d370d",
+          "sha1": "fee597811e87213311955981f5515c3f36483fff",
+          "md5": "85169947ee3986b5f37f3bafc780a588"
         }
       ]
     }

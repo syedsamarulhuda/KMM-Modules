@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.syedsamarulhuda.kmm</groupId>
   <artifactId>core-database</artifactId>
-  <version>2.0.0</version>
+  <version>2.0.3</version>
   <packaging>pom</packaging>
   <name>Kmm Base Modules Library</name>
   <description>Kmm Base Modules To Make KMM Library.</description>

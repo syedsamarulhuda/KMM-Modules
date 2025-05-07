@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../core-database/2.0.0/core-database-2.0.0.module",
+    "url": "../../core-database/2.0.3/core-database-2.0.3.module",
     "group": "com.syedsamarulhuda.kmm",
     "module": "core-database",
-    "version": "2.0.0",
+    "version": "2.0.3",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -57,7 +57,7 @@
       "files": [
         {
           "name": "core-database.klib",
-          "url": "core-database-iossimulatorarm64-2.0.0.klib",
+          "url": "core-database-iossimulatorarm64-2.0.3.klib",
           "size": 24706,
           "sha512": "9a835140690b3a3ec281f77594f9458517f327a0a7af6c285a68c0c10b11a31e6590a54ab16f5ed569080a1c9c9cfea93053b6fc35a424e3a94014412f9b4684",
           "sha256": "785a03ec96c4730893bbdf2e3864654f0761e2b5ee4d211691d26ad5dc4d51e7",
@@ -78,8 +78,8 @@
       },
       "files": [
         {
-          "name": "core-database-iossimulatorarm64-2.0.0-sources.jar",
-          "url": "core-database-iossimulatorarm64-2.0.0-sources.jar",
+          "name": "core-database-iossimulatorarm64-2.0.3-sources.jar",
+          "url": "core-database-iossimulatorarm64-2.0.3-sources.jar",
           "size": 8107,
           "sha512": "8ee4b1b70a4891a1cf0ece0a4ea75d972a38fdd3939f0202c5e6743a8c698b57fa7e383d2380cfae5cf406c812f934a8bd2a6f4d8c7acc320330a677146f94cb",
           "sha256": "3ff9389d89d3d535a7c46eb89a756111cebdc5c5de245d2026551d86555b2390",
@@ -129,13 +129,13 @@
       ],
       "files": [
         {
-          "name": "core-database-iossimulatorarm64-2.0.0-metadata.jar",
-          "url": "core-database-iossimulatorarm64-2.0.0-metadata.jar",
+          "name": "core-database-iossimulatorarm64-2.0.3-metadata.jar",
+          "url": "core-database-iossimulatorarm64-2.0.3-metadata.jar",
           "size": 3770,
-          "sha512": "1f007ae30ece7c011c6458683ea0c9a387d97a91a9dcc09b2d2f7b2e35cd7f6a96473cc94bc2ad6ffd3e5178f15b61e031cb2c058a21a25552c43f154c7f1c0c",
-          "sha256": "ef6a870a6c9368e68a1fcd328acb7fd05ba3c1975f49115e67bd61116f3599b4",
-          "sha1": "6b594fd45534b1790595565c48b6654d1f9064d0",
-          "md5": "ad4d4e052e58d7926ad8546fd4a68978"
+          "sha512": "bc68dadafd4bd30fb21676e4db7c166088abc144fa074b4c5ce4f2d2d77fa31673963a63a16b74a45bd85212ce0963eed5e714240dc7dfe5e420338b5bb2c6c2",
+          "sha256": "3d579661a55700bff3640d669422cdd2a19ad955ed9325a38b81a345c304f9d2",
+          "sha1": "b7fdaaa9ea8a89c4e2e23f0d2b4992759a19f1c4",
+          "md5": "6bd2ce65e89659f268d42bb45d826f51"
         }
       ]
     }

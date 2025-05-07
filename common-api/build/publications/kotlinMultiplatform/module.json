@@ -3,7 +3,7 @@
   "component": {
     "group": "com.syedsamarulhuda.kmm",
     "module": "common-api",
-    "version": "2.0.0",
+    "version": "2.0.3",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -109,13 +109,13 @@
       ],
       "files": [
         {
-          "name": "common-api-metadata-2.0.0.jar",
-          "url": "common-api-2.0.0.jar",
-          "size": 10318,
-          "sha512": "3840b6294c50a2448043eb80012d685f0b45c095941c3472e52656139069ad6839248e7e636861bc8ebbe20ddb97e8e324f9289a05fc8b1729c12a79e62b5a59",
-          "sha256": "9d6b68bcd1ff879e5b212e2176cd9905ce7656470be7edb732ead9ea7d1e8f42",
-          "sha1": "05de9b90ef983cca6077e0a631e183c5829737cf",
-          "md5": "fa0e482bdd336a099a29b54ad1e4ee4d"
+          "name": "common-api-metadata-2.0.3.jar",
+          "url": "common-api-2.0.3.jar",
+          "size": 10430,
+          "sha512": "37849924eb1c65c79ca2b1e23821fa3caf4ac8e0537e50311c2ff009997a025ffc4a108ad6ee971c0a9608916c7fd29e382d3f3f394d272fdf944f22b0a1c90e",
+          "sha256": "3bcced7b695dc30a30610fe1f6f350bf5e834b0abbdd3c702e337d9d551765f1",
+          "sha1": "3e76e716012534c24f1385a82629b2c1cf638f38",
+          "md5": "159d40d2bf66c86f9a4aa6dc6df2c9fa"
         }
       ]
     },
@@ -130,13 +130,13 @@
       },
       "files": [
         {
-          "name": "common-api-kotlin-2.0.0-sources.jar",
-          "url": "common-api-2.0.0-sources.jar",
-          "size": 5659,
-          "sha512": "26f79b7cecac9aa96b299d597eb99d81c76c7a0cb2a333a43aeae515274bfd0bd12c7c539f6d8649aa23496cbb0292e927fb2084827189bbc3ef757537af4239",
-          "sha256": "e1b5c9a2011678d240672e4766de6fa16353c026ad12c452f6f2639cd6dec873",
-          "sha1": "d21ca8ecb1677650f46fc4d5fcd63a1687c3e914",
-          "md5": "300809726650b20ccade2aee2c7c7e2f"
+          "name": "common-api-kotlin-2.0.3-sources.jar",
+          "url": "common-api-2.0.3-sources.jar",
+          "size": 5691,
+          "sha512": "54d46bdd454ae0c4f5e06d144ad1d636d08871d3c2c03a43f3ac4b16b9316ec6aba8990b66f66266b3bfb8acef0dbb7ab5285ebe3278f0992bf3057544f00e67",
+          "sha256": "07faa00fbaf18ddd1e6fd6dd64ef178909b6cca59406566309ce8e86916b69ba",
+          "sha1": "76bdff1ff98a76b6d23462f94931a2686b5961a6",
+          "md5": "652da53773b76120e64cdec59161f93d"
         }
       ]
     },
@@ -149,10 +149,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../common-api-android-debug/2.0.0/common-api-android-debug-2.0.0.module",
+        "url": "../../common-api-android-debug/2.0.3/common-api-android-debug-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "common-api-android-debug",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -164,10 +164,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../common-api-android-debug/2.0.0/common-api-android-debug-2.0.0.module",
+        "url": "../../common-api-android-debug/2.0.3/common-api-android-debug-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "common-api-android-debug",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -182,10 +182,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../common-api-android-debug/2.0.0/common-api-android-debug-2.0.0.module",
+        "url": "../../common-api-android-debug/2.0.3/common-api-android-debug-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "common-api-android-debug",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -196,10 +196,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../common-api-android/2.0.0/common-api-android-2.0.0.module",
+        "url": "../../common-api-android/2.0.3/common-api-android-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "common-api-android",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -210,10 +210,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../common-api-android/2.0.0/common-api-android-2.0.0.module",
+        "url": "../../common-api-android/2.0.3/common-api-android-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "common-api-android",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -227,10 +227,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../common-api-android/2.0.0/common-api-android-2.0.0.module",
+        "url": "../../common-api-android/2.0.3/common-api-android-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "common-api-android",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -243,10 +243,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../common-api-iosarm64/2.0.0/common-api-iosarm64-2.0.0.module",
+        "url": "../../common-api-iosarm64/2.0.3/common-api-iosarm64-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "common-api-iosarm64",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -260,10 +260,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../common-api-iosarm64/2.0.0/common-api-iosarm64-2.0.0.module",
+        "url": "../../common-api-iosarm64/2.0.3/common-api-iosarm64-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "common-api-iosarm64",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -276,10 +276,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../common-api-iosarm64/2.0.0/common-api-iosarm64-2.0.0.module",
+        "url": "../../common-api-iosarm64/2.0.3/common-api-iosarm64-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "common-api-iosarm64",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -292,10 +292,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../common-api-iossimulatorarm64/2.0.0/common-api-iossimulatorarm64-2.0.0.module",
+        "url": "../../common-api-iossimulatorarm64/2.0.3/common-api-iossimulatorarm64-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "common-api-iossimulatorarm64",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -309,10 +309,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../common-api-iossimulatorarm64/2.0.0/common-api-iossimulatorarm64-2.0.0.module",
+        "url": "../../common-api-iossimulatorarm64/2.0.3/common-api-iossimulatorarm64-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "common-api-iossimulatorarm64",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     },
     {
@@ -325,10 +325,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../common-api-iossimulatorarm64/2.0.0/common-api-iossimulatorarm64-2.0.0.module",
+        "url": "../../common-api-iossimulatorarm64/2.0.3/common-api-iossimulatorarm64-2.0.3.module",
         "group": "com.syedsamarulhuda.kmm",
         "module": "common-api-iossimulatorarm64",
-        "version": "2.0.0"
+        "version": "2.0.3"
       }
     }
   ]

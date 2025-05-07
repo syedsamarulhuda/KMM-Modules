@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../core-pref/2.0.0/core-pref-2.0.0.module",
+    "url": "../../core-pref/2.0.3/core-pref-2.0.3.module",
     "group": "com.syedsamarulhuda.kmm",
     "module": "core-pref",
-    "version": "2.0.0",
+    "version": "2.0.3",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -43,7 +43,7 @@
       "files": [
         {
           "name": "core-pref.klib",
-          "url": "core-pref-iosarm64-2.0.0.klib",
+          "url": "core-pref-iosarm64-2.0.3.klib",
           "size": 10258,
           "sha512": "c885884d085a60dc1122a62766a2280e07c69e769c3e0fe0012c6256ec25d1fdaabada524db14267197c9ca3b0919209f86171f878fb2dee9bda8dfeee0a19e4",
           "sha256": "3d5d917b1f85c204734f16ce694b30fb4ca2d0553c9a3c4ca92ff80b115bb744",
@@ -64,8 +64,8 @@
       },
       "files": [
         {
-          "name": "core-pref-iosarm64-2.0.0-sources.jar",
-          "url": "core-pref-iosarm64-2.0.0-sources.jar",
+          "name": "core-pref-iosarm64-2.0.3-sources.jar",
+          "url": "core-pref-iosarm64-2.0.3-sources.jar",
           "size": 2169,
           "sha512": "cbb02d6821470a1ad1901487b6e567742f1bfa0e001867d052acd2e38b30ec1f93e8849a73f0b75301de322147a62c92686580f23c3b71a133aa700c0f723e9b",
           "sha256": "d1df919dfab7fb9b0cf95143c32f905127dc288aaa46538336bf31e7968215e8",
@@ -101,13 +101,13 @@
       ],
       "files": [
         {
-          "name": "core-pref-iosarm64-2.0.0-metadata.jar",
-          "url": "core-pref-iosarm64-2.0.0-metadata.jar",
+          "name": "core-pref-iosarm64-2.0.3-metadata.jar",
+          "url": "core-pref-iosarm64-2.0.3-metadata.jar",
           "size": 3894,
-          "sha512": "85dd538e6f5f2373f2b4224f001bbadb97acc8cd09b7c4595c5f7efaa34460fb31eb00641c63b54fe96c1ce871b6b404d97c57ccfed12fbe4a0740900856460d",
-          "sha256": "83185a2bc78a1d87ca1e9973079046c2c99d1e1e628ad23bc248e5b56ce8e5d2",
-          "sha1": "5d298c8d9178e0f88ae6ff22a04f05b34aa0d793",
-          "md5": "b05d2f4acfc541b641a0ee6e4a3b3d19"
+          "sha512": "3bf39283dd5139dee43b9d7993a5bb5130a562e1111d0bed3235e50130da50d3efb8af2ca393b58a8af6729591c4e27ce206792885017ef76d7565fb00b39703",
+          "sha256": "dc3204019166f95b059092e97be5eefbda661584219993a3be0bd6384f611d51",
+          "sha1": "f0c0a8764fb91f8745b59eca1a67fc8b739b4b59",
+          "md5": "605a661be1ec4a2fb32c078c2f43c688"
         }
       ]
     }
